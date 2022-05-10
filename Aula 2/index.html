@@ -14,6 +14,7 @@
 </head>
 
 <header>
+    <!-- CRIAÇÃO DE MENUS DE PAGINAS -->
     <h1>Desenvolvimento WEB completo 2022</h1>
     <h2>Aula 2 - HTML : Figuras, Links, Tabelas e Formulários</h2>
     <a href="/Aula 2/index.html">Home</a>
@@ -26,14 +27,21 @@
 
     <h2>Formulários em HTML</h2>
 
+    <!-- Uso de Formulários -->
     <form action="process.php">
-        Login:<input type="text" name="login"> Senha:
-        <input type="password" name="password">
+
+        <!-- Input tipo TEXTO -->
+        Login:<input type="text" name="login">
+        <!-- Input tipo PASSWORD -->
+        Senha:<input type="password" name="password">
+        <!-- Input tipo SUBMIT-->
         <input type="submit" value="Logar" name="logar">
     </form>
     <hr>
 
     <h2>Tabela em HTML</h2>
+
+    <!-- Uso de TABELAS-->
     <table border="2" width="100%">
         <tr>
             <th>Código</th>
@@ -56,15 +64,19 @@
             <td>R$ 140.864,79</td>
         </tr>
         <tr>
+            <!-- Uso de ROWSPAN -->
             <td rowspan="2">Desconto
                 <hr>(Rolspan="2")</td>
+            <!-- Uso de COLSPAN -->
             <td colspan="2">Cupom -$10 (Colspan="2")</td>
         </tr>
         <tr>
+            <!-- Uso de COLSPAN -->
             <td colspan="2">Cupom -$20 (Colspan="2")</td>
         </tr>
         <tr>
             <th>TOTAL</th>
+            <!-- Uso de COLSPAN -->
             <td colspan="2">R$ 143.555,27 (Colspan="2")</td>
         </tr>
     </table>
