@@ -1,23 +1,29 @@
 /* IDs */
 
-#topo{
-	background: blue;
+#topo {
+    background: blue;
 }
 
-#conteudo{
-	background: red;
+#conteudo {
+    background: red;
 }
 
-#rodape{
-	background: green;
+#rodape {
+    background: green;
 }
 
-#assinatura{
-	background: pink;
+#assinatura {
+    background: pink;
 }
+
+
 /* CLASSES */
 
-.produto{
-	background: grey;
-	margin: 10px;
+#direitos {
+    color: blue;
+}
+
+.produto {
+    background: grey;
+    margin: 10px;
 }
