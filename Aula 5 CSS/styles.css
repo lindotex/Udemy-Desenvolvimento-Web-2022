@@ -1,29 +1,48 @@
-/* IDs */
+/* ---------- SELECTORS ----------- */
 
-#topo {
-    background: blue;
-}
+/* ----------- CLASSES ------------ */
 
-#conteudo {
-    background: red;
-}
+/* ------------- IDs ---------------*/
 
-#rodape {
-    background: green;
-}
+#conteudo{
 
-#assinatura {
-    background: pink;
-}
+    border: 5px double red;
+    /* espessura, tipo, cor */
+ 
+    /* TIPOS DE BORDAS ::                                   */
+    /*        Tipos:                                        */
+    /*                  Dotted,                             */
+    /*                  Dashed,                             */
+    /*                  Solid,                              */
+    /*                  Double,                             */
+    /*                  Groover,                            */
+    /*                  Ridge,                              */
+    /*                  Inset,                              */
+    /*                  Outset;                             */
+    /*                  None,                               */
+    /*                  Hidden,                             */
 
 
-/* CLASSES */
+    /* CORES ::                                             */
+    /*   cores hexadecimal                                  */
+    /*   cores RGB                                          */
+    /*   cores RGBA (com opacidade)                         */
+    /* https://html-color-codes.info/Codigos-de-Cores-HTML/ */
 
-#direitos {
-    color: blue;
-}
 
-.produto {
+    /* FONTES ::                                            */
+    /* https://www.w3schools.com/css/css_font.asp           */
+
+    font-size: 30px;
+    /*  Define o tamanho da letra na tela                   */
+
+    font-family: "palatino linotype", Book Antiqua, Palatino, serif;
+    /*  Define o estilo da fonte a ser utilizada            */
+
     background: grey;
-    margin: 10px;
+    /*  Define a cor de preenchimento do fundo              */
+    /*   cores hexadecimal                                  */
+    /*   cores RGB                                          */
+    /*   cores RGBA (com opacidade)                         */
+
 }

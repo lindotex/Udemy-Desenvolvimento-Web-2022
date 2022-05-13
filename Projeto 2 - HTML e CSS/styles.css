@@ -1,0 +1,21 @@
+
+/*----------- Selectors ------------- */
+
+body{
+	margin:  0;
+	padding: 0;
+	align-items: center;
+}
+
+header{
+	background-color: grey;
+}
+
+table{
+	border: ;
+	border-width: 2;
+}
+/* ------------ Classes -------------- */
+
+
+/* --------------- IDs --------------- */

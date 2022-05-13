@@ -1,0 +1,44 @@
+
+/* ---------- SELECTORS ----------- */
+
+body{
+    background-color: #f2f2f2; /*Cor do fundo*/
+
+    background-image: url(./assets/yoshi.png) /*Imagem de Fundo*/;
+
+    background-repeat: no-repeat; 
+    /* Controlar as repetições da imagem de fundo */
+    /*background-repeat: repeat;*/
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+
+    background-attachment: fixed;
+    /* A Imagem ficará fixa ao fundo, mesmo com rolagem na tela */
+
+    /* background-attachment: scroll; */
+    /* A Imagem rolará juntamente com a tela  */
+
+    background-position: right center;
+    /* Define a posição da imagem de fundo */
+    /* Primeiro valor (right), alinhamento horizontal (Eixo X)*/
+    /* Segundo valor (center), alinhamento Vertical (eixo Y) */
+
+}
+
+h1{
+    position: static;
+    padding: 0;
+    margin: 0px;
+}
+
+/* ----------- CLASSES ------------ */
+
+
+.fundo{
+    background-color: blue; /*Cor do fundo*/
+    color: white; /*Cor da Letra*/
+}
+/* ------------- IDs ---------------*/
+
+
+
