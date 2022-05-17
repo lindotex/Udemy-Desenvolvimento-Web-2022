@@ -1,0 +1,81 @@
+<!--
+    Elementos Block: Elementos que preenchem todo o width ao serem adicionados, e se estabelecem um abaixo do outro.
+    Sao eles os elementos <h1>, <p>, <table>,...
+    
+    Elementos Inline: Elementos que estabelecem-se um ao lado do outro e o width do elemento varia de acordo com o seu conteudo.
+    Sao eles os elementos <a>, <span>, <img>,...
+
+    Elementos Inline-Block: Elementos que tem seu width definidos pelo seu conteudo, porem, ao serem adicionados, estabelecem-se abaixo um do outro, como um elemento Block quando acaba o width limite de tela definido. Display: Inline Block.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Elements, Block and Inline-block</title>
+
+    <style type="text/css">
+        .borda {
+            border: 1px solid red;
+        }
+        
+        .borda2 {
+            border: 1px solid red;
+            display: inline;
+        }
+        
+        .borda3 {
+            border: 1px solid red;
+            display: block;
+        }
+        
+        .borda4 {
+            border: 1px solid red;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Elementos Block-->
+    <h1 class="borda">H1 Bloco 1</h1>
+    <h1 class="borda">H1 Bloco 2</h1>
+    <hr>
+
+    <!-- Elementos Block com CSS Display Inline-->
+    <h1 class="borda2">H1 Bloco com inline 1</h1>
+    <h1 class="borda2">H1 Bloco com inline 2</h1>
+    <hr>
+
+    <!-- Elementos inline-->
+    <span class="borda">Span Elemento Inline 1</span>
+    <span class="borda">Span Elemento Inline 2</span>
+    <hr>
+
+    <!-- Elementos inline com CSS Block-->
+    <span class="borda3">Span Elemento Inline Com Block 1</span>
+    <span class="borda3">Span Elemento Inline Com Block 2</span>
+
+    <hr>
+
+    <!-- Elementos Block com CSS Display Inline-Block-->
+    <h1 class="borda4">H1 Bloco com inline 1</h1>
+    <h1 class="borda4">H1 Bloco com inline 2</h1>
+    <h1 class="borda4">H1 Bloco com inline 3</h1>
+    <h1 class="borda4">H1 Bloco com inline 4</h1>
+    <h1 class="borda4">H1 Bloco com inline 5</h1>
+    <h1 class="borda4">H1 Bloco com inline 6</h1>
+    <h1 class="borda4">H1 Bloco com inline 7</h1>
+    <h1 class="borda4">H1 Bloco com inline 8</h1>
+    <h1 class="borda4">H1 Bloco com inline 9</h1>
+    <h1 class="borda4">H1 Bloco com inline 10</h1>
+    <h1 class="borda4">H1 Bloco com inline 11</h1>
+    <h1 class="borda4">H1 Bloco com inline 12</h1>
+
+</body>
+
+</html>
