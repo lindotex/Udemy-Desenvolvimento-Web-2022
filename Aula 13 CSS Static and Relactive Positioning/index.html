@@ -1,0 +1,75 @@
+<!--
+    ---TIPOS DE POSICIONAMENTOS---
+    
+    Estatico:: 
+
+    Relativo::
+    
+    Absoluto::
+
+    Fixo::
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static and Relative Positioning</title>
+
+    <style type="text/css">
+        body {
+            background: #007fc7;
+        }
+        
+        h1 {
+            position: static;
+        }
+        
+        p {
+            width: 300px;
+            position: static;
+        }
+        
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 10px Auto;
+            padding: 10px;
+        }
+        
+        .relativa {
+            border: 1px solid red;
+            position: relative;
+            /*top, bottom, right and left*/
+            top: -110px;
+            left: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>
+            Posicionamentos
+        </h1>
+
+        <p>
+            <strong>P1</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat quis quia facilis nesciunt ducimus ut pariatur repellendus veniam, rem eaque culpa dolorum. Dolorem illum sunt sit temporibus tempore a est.
+        </p>
+        <p class="relativa">
+            <strong>P2</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat quis quia facilis nesciunt ducimus ut pariatur repellendus veniam, rem eaque culpa dolorum. Dolorem illum sunt sit temporibus tempore a est. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Aperiam libero repellat nobis voluptatem excepturi assumenda rem dolore tempore facilis ad. Quis ipsam fuga praesentium minus repellendus, nesciunt temporibus delectus sit!
+        </p>
+        <p>
+            <strong>P3</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat quis quia facilis nesciunt ducimus ut pariatur repellendus veniam, rem eaque culpa dolorum. Dolorem illum sunt sit temporibus tempore a est. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Quibusdam consequuntur commodi labore perspiciatis nisi nostrum laborum iste unde eius error reprehenderit fugit fugiat asperiores, aperiam, aut voluptatem dolorum non Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maiores suscipit eius dolore. Molestiae eligendi, numquam, pariatur suscipit harum eos omnis deserunt asperiores a quae ullam earum accusantium placeat mollitia veniam?
+        </p>
+    </div>
+</body>
+
+</html>
