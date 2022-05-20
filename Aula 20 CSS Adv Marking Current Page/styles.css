@@ -1,0 +1,40 @@
+/*     Marking Current Page     */
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    display: block;
+    /* por padrão, links "a", são elementos inline 
+ 	e não recebem a formatação width e height */
+    background: #f7b600 url(./assets/menu.png) no-repeat left bottom;
+}
+
+ul a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home .home a,
+#home .sobre a,
+#home .mais a,
+#home .contato a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
