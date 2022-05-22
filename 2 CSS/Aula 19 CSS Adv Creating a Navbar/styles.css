@@ -1,0 +1,52 @@
+/* Creating a Navbar*/
+
+
+
+/********************************/
+/* Barras de navegação vertical */
+/********************************/
+
+
+/**************/
+/*    LISTA   */
+/**************/
+
+ ul.lista{
+ 	list-style-type: none; /* retira as bolinhas da lista */
+ 	margin: 0px; 
+ 	padding: 0px;
+ }
+
+ li.lista{
+ 	padding: 5px 20px;
+ 	background: url(./assets/seta.png) no-repeat left center;
+ }
+
+
+
+
+ /********************/
+ /* USANDO BACKGROUD */
+ /********************/
+
+ ul.back{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	list-style-type: none; 
+ }
+
+ ul.back a{
+ 	width: 200px;
+ 	height: 40px;
+ 	color: black;
+ 	text-decoration: none;
+ 	text-indent: 40px;
+ 	line-height: 40px;
+ 	display:  block; /* por padrão, links "a", são elementos inline 
+ 	e não recebem a formatação width e height */
+ 	background: url(./assets/menu.png) no-repeat left bottom;
+ }
+
+  ul.back a:hover {
+ 	background-position: right bottom;
+ }
