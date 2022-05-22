@@ -1,0 +1,41 @@
+<!-- Inline Style CSS ( OK ) -->
+<!-- Internal Style CSS ( OK ) -->
+<!-- External Style CSS ( at this lesson ) -->
+<!-- Also learning about IDs and Classes -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Inline CSS & Classes e ID</title>
+
+    <!-- CSS EXTERNO: -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    
+    <h1>Estilo CSS (Cascading Style Sheets)</h1>
+
+	<hr>  
+    <h3>Classe</h3>
+    <p>Pode ser Utilizado para classificar um grupo de valores ou dados semelhantes</p>
+
+    <!-- ID vai dentro da Classe -->  
+    <!-- Logo, ao retornar o estilo (regra), será respeitado na ordem: ID, Class -->
+    <p class="azul" id="vermelho"><strong>Ex:</strong><em> Passageiros Homens, em um onibus, podem ser "classificados" por "Masculino", e as passageiras por "Feminino". Assim todos os passageiros ocupam apenas duas classes, mas já facilita na organização dos dados.</em></p>
+
+    <h3>ID</h3>
+    <p>Deve ser Utilizado para classificar uma unidade de valor ou dado</p>  
+    <p class="azul"><strong>Ex:</strong><em> Passageiros, em um onibus, podem ser "classificados" por "Masculino" e "Feminino". Mas se quizermos localizar um individuo específico, o ideal seria termos um numero "Identificador", assim como o acento... que é individual e único.</em></p>
+    <hr>
+    
+    <h2>ID > Classe:</h2>
+    <p>No casso de sobreposição de Class e ID, o componente será estilizado de acordo com a ID, ja que o ID é um componente individual dentro da Classe.</p>
+    
+</body>
+
+</html>
