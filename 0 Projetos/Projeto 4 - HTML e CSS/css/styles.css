@@ -31,9 +31,46 @@ body.fotos #navegacao a#fotos {
 
 /*========= IDs ========*/
 
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
 #container {
-    width: 800px;
+    width: 750px;
     margin: 0px auto;
+}
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    background: blue;
+    margin: 0px 0px 20px 195px;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    background: green;
+    margin: 0px 0px 20px 15px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    background: yellow;
+    margin: 0px 0px 20px -465px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0px auto;
+    color: #FFF;
 }
 
 #topo {
