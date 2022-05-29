@@ -10,13 +10,14 @@ head {
 
 body {
     font-family: Helvetica, "Trebuchet MS", sans-serif;
+    width: 90%;
+    padding: 10%;
     margin: 15px;
     padding: 0px;
     background: #000 url(../img/bg.png) repeat;
 }
 
 #container {
-    border: 1px solid red;
     background: #ede9cc url(../img/bg-container.png) top center repeat-y;
     margin: 0px;
     max-width: 1180px;
@@ -51,7 +52,6 @@ a {
     position: absolute;
     top: 15px;
     left: 15px;
-    width: ;
     z-index: 40;
     background: url(../img/logo.png) no-repeat;
     width: 151px;
