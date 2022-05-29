@@ -1,0 +1,89 @@
+/* Configuracao padrao
+---------------------------*/
+
+body,
+html {
+    margin: 0;
+    font: 16px;
+    font-family: "lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    color: #777;
+    background: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3 {
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+/* Efeito Parallax
+--------------------------------*/
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4,
+.caixa5,
+.caixa6 {
+    position: relative;
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(../img/imagem1.jpg);
+}
+
+.caixa2 {
+    background-image: url(../img/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(../img/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../img/imagem4.jpg);
+}
+
+.caixa5 {
+    background-image: url(../img/imagem5.jpg);
+}
+
+.caixa6 {
+    background-image: url(../img/imagem6.jpg);
+}
+
+.conteudo-titulo {
+    z-index: 100;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
