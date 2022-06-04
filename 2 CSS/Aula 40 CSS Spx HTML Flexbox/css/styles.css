@@ -1,0 +1,20 @@
+#conteudo {
+    background: #dcdcdc;
+    display: flex;
+    /*row | row-reverse | column | columnn-reverse*/
+    flex-direction: row;
+    /* nowrap | wrap | wrap-reverse*/
+    flex-wrap: wrap;
+    /* flex-start | flex-end | center | space-between | space-around | space-evenly*/
+    justify-content: space-evenly;
+    /*stretch | center | flex-start | flex-end | baseline*/
+    align-items: stretch;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+}
