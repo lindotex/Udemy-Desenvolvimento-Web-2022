@@ -1,0 +1,49 @@
+header {
+    border: 1px solid gray;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav {
+    border: 1px solid purple;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 20px;
+}
+
+article {
+    border: 1px solid red;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 20px;
+}
+
+section {
+    border: 1px solid gray;
+    background: #f2f2f2;
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+span {
+    color: red;
+}
+
+time {
+    color: green;
+}
+
+aside {
+    border: 1px solid rgb(0, 45, 128);
+    background: #f2f2f2;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    border: 1px solid green;
+    background: #f2f2f2;
+    margin: 20px;
+    padding: 10px;
+}
