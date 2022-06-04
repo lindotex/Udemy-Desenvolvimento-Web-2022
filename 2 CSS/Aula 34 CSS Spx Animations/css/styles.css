@@ -1,0 +1,77 @@
+/*Acessibilidade para chrome*/
+
+@-webkit-keyframes animacao-caixa {
+    from {
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+
+/*Acessibilidade para firefox*/
+
+@-moz-keyframes animacao-caixa {
+    from {
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+
+/*Acessibilidade para opera*/
+
+@-o-keyframes animacao-caixa {
+    from {
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /*prefixos para as animacoes*/
+    /* -webkit- : Chrome*/
+    /* -moz- : mozila*/
+    /* -o- : opera*/
+    animation-name: animacao-caixa;
+    /*chama o keyframes*/
+    animation-duration: 5s;
+    /*duracao da animacao*/
+    animation-delay: 3s;
+    /*delay para inicio da animacao*/
+    animation-iteration-count: infinite;
+    /*numero de repeticoes da animacao, pode ser 1, 2, infinito*/
+    animation-direction: alternate;
+    /*faz retornar ao original reversamente*/
+    animation-direction: reverse;
+    /*faz iniciar pelo ultimo estado da animacao*/
+    /*a declaracao pode ser realizada em apenas uma linha como abaixo:*/
+    /* animation: animacao-caixa 5s 3s 2 alternate; */
+}
