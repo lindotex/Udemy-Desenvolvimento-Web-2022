@@ -1,0 +1,46 @@
+#conteudo {
+    background: #dcdcdc;
+    display: flex;
+    /*row | row-reverse | column | columnn-reverse*/
+    /* flex-direction: row; */
+    /* nowrap | wrap | wrap-reverse*/
+    /*   flex-wrap: wrap; */
+    /* flex-start | flex-end | center | space-between | space-around | space-evenly*/
+    /*   justify-content: space-evenly; */
+    /*stretch | center | flex-start | flex-end | baseline*/
+    /*  align-items: stretch; */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    /*Define a proporcao de espaco usado por um item*/
+    flex-grow: 0;
+}
+
+.item1 {
+    flex-grow: 2;
+}
+
+.item2 {
+    flex-grow: 1;
+}
+
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.ordem4 {
+    order: 4;
+}
