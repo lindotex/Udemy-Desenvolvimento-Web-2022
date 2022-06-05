@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+
+    <!--[if lt IE 9]>
+	<scrip src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>">
+    <![endif]-->
+
+    <title>Museu Nacional</title>
+</head>
+
+<body>
+
+    <!--Container-->
+    <div id="container">
+
+        <!--HEADER-->
+        <header>
+
+            <!--LOGO-->
+            <div id="logo">
+                <h1><a href="./img/fundo.png">Museu Nacional</a></h1>
+            </div>
+            <!--/LOGO-->
+
+            <!--NAVBAR-->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <!--/NAVBAR-->
+
+        </header>
+        <!--/HEADER-->
+
+        <!--PRINCIPAL-->
+        <div id="principal">
+
+            <!--CONTEUDO-->
+            <div id="conteudo">
+
+                <!--SECTION CAPA-->
+                <section id="capa">
+                    <img src="./img/museu.png" alt="museu">
+                </section>
+                <!--/SECTION CAPA-->
+
+                <!--SECTION-->
+                <section id="postagens">
+
+                    <!--ARTICLE VIDEO-->
+                    <article id="video">
+                        <h3>Video: Conheca o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                    <!--/ARTICLE VIDEO-->
+
+                    <!--ARTICLE MAPA-->
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58802.64347187483!2d-43.236126806450386!3d-22.907276162830716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1654455677612!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <!--/ARTICLE MAPA-->
+
+                    <!--ARTICLE EXPOSICOES-->
+                    <article id="exposicoes">
+                        <h3>EXPOSICOES</h3>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                            <li><a href="">O cranio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="">Preguica gigante e tigre-dentes-de-sabre</a></li>
+                            <li><a href="">Plantas do Brasil Central</a></li>
+                            <li><a href="">Teresa Cristina: A imperatriz Arqueologa</a></li>
+                            <li><a href="">Artes com dinossauros: Paleoarte</a></li>
+                            <li><a href=""><strong>Veja Todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+                    <!--/ARTICLE EXPOSICOES-->
+
+                    <!--ARTICLE HISTORIA-->
+                    <article id="historia">
+                        <h3>200 ANOS DE HISTORIA</h3>
+                        <p>Numa ponta que avanca para o mar, posteriormente conhecida como Ponta do Calabouco, entre as praias de Piacaba e Santa Luzia, no centro historico do Rio de Janeiro, os portugueses construiram em 1603 a Fortaleza de Santiago, Origem
+                            do conjunto arquitetonico que hoje abriga o Museu historico Nacional.</p>
+                        <a href=""><strong>Leia Mais</strong></a>
+                    </article>
+                    <!--/ARTICLE HISTORIA-->
+
+                </section>
+                <!--/SECTION POSTAGENS-->
+
+            </div>
+            <!--/CONTEUDO-->
+
+            <!--ASIDE-->
+            <aside>
+
+                <!--DEPOIMENTO SECTION-->
+                <section id="depoimento">
+                    <img src="./img/depoimento.png" alt="depoimento">
+                </section>
+                <!--/DEPOIMENTO SECTION-->
+
+                <!--VISITA SECTION-->
+                <section id="visita">
+                    <h4>Faca uma visita</h4>
+
+                    <!--FORM-->
+                    <form action="">
+                        <fieldset>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="date" id="data" value="dd/mm/aaaa">
+                            <label for="qtd">Qtd Pessoas</label>
+                            <input class="campo" style="width: 30px;" type="number" id="qtd" value="01">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar Disponibilidade">
+                    </form>
+                    <!--/FORM-->
+
+                </section>
+                <!--/VISITA SECTION-->
+
+                <!--GALERIA SECTION-->
+                <section id="galeria">
+                    <h4>Galeria de Fotos</h4>
+                    <a href="">
+                        <img src="./img/imagem1.jpg" alt="Descricao.imagem" height="93px" width="93px">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem2.jpg" alt="Descricao.imagem" height="93px" width="93px">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem3.jpg" alt="Descricao.imagem" height="93px" width="93px">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem4.jpg" alt="Descricao.imagem" height="93px" width="93px">
+                    </a>
+                </section>
+                <!--/GALERIA SECTION-->
+
+            </aside>
+            <!--/ASIDE-->
+
+            <!--FOOTER-->
+            <footer>
+                <p>
+                    <a href="#">Home</a>
+                    <a href="#">Exposições</a>
+                    <a href="#">pesquisa</a>
+                    <a href="#">Acervo</a>
+                    <a href="#">Videos</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contato</a>
+                </p>
+                <p> 2009 -<a href="">Museu Nacional</a>- &copy; Todos os direitos Reservados</p>
+            </footer>
+            <!--/FOOTER-->
+        </div>
+        <!--/PRINCIPAL-->
+
+    </div>
+    <!--/Container/-->
+
+</body>
+
+</html>
