@@ -1,0 +1,22 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+@media screen (max-width: 575.98px){ 
+	#btn-entrar{
+		margin-left: 0px;
+	}
+	
+}
+@media screen (min-width: 576px; max-width:1200){ 
+	#btn-entrar{
+		margin-left: 400px;
+	}
+	
+}
