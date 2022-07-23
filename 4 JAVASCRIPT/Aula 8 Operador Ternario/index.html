@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores logicos</title>
+    <script>
+
+        var media = 7
+        var faltasMaximas = 0.75
+        parseFloat(media)
+        parseFloat(faltasMaximas)
+
+        var nota = prompt('Digite a nota do Aluno:')
+        var aulas = prompt('Digite o total de aulas da materia:')
+        var faltas = prompt('Digite quantas aulas o aluno fautou:')
+
+        parseInt(nota)
+        parseInt(aulas)
+        parseInt(faltas)
+        
+
+        totalFaltas = (aulas - faltas) / aulas
+        
+        document.write('Nota do aluno = ' + nota + '<br>')
+        document.write('Faltas do aluno = ' + totalFaltas + '<br>')
+
+        //OPERADOR TERNARIO SUBSTITUINDO CONDICIONAL IF
+        // SINTAXE DO OPERADOR TERNARIO:
+        // var nomeVar = <condicao> ? <verdadeiro> : <falso>
+
+        var resultado = (nota >= media && totalFaltas >= faltasMaximas) ? ('O aluno esta: APROVADO!'+ '<br>') : ('O aluno esta: REPROVADO'+ '<br>')
+        document.write(resultado)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
