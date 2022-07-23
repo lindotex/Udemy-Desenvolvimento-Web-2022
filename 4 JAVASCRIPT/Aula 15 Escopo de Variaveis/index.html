@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopo de Variaveis</title>
+</head>
+<body>
+    <script>
+
+        // Niveis de Escopo: Global, Funcoes e Blocos
+        // Global : Para todo o programa
+        // Funcoes : Validos dentro de funcoes
+        // Bloco : Validos dentro de blocos de instrucoes e global (switches, If, Else, etc..)
+
+        //Escopo Global
+        var serie = 'Friends <br>'
+
+        //Escopo de Bloco
+        if(true){
+            var serie2 = 'Game of Thrones <br>' //Hoisting : Elevacao ao nivel global!
+            document.write(serie)
+            
+        }
+        document.write(serie2)
+        // document.write(serie3) // nao esta no escopo global, apenas na funcao X... 
+        
+        document.write('<br />')
+
+        //Escopo de Funcao
+        function x (){
+            var serie3 = ('The Walking Dead <br>')
+            document.write(serie)
+            document.write(serie2)
+            document.write(serie3)
+        }
+            //chamando a funcao
+             x()
+    </script>
+
+</body>
+</html>
