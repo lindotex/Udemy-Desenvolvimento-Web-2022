@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores logicos</title>
+    <script>
+
+        // "&&" operador logico "e"
+        // se todos os parametros forem verdadeiros a saida sera verdadeira
+        // se houver algum falso, o resultado final, sera falso.
+        if (2 == 2 && 3 >=1 && 'a'=='b'){
+            document.write('verdadeiro -- ')
+        } else {
+            document.write('falso  -- ')
+        }
+
+        // "||" operador logico "ou"
+        // se qualquer um dos parametros forem verdadeiro a saida sera verdadeira
+        // o resultado final sera falso, apenas, se todos os parametros forem falso.
+        if (2 == 2 || 3 >=1 || 'a'=='b'){
+            document.write('verdadeiro -- ')
+        } else {
+            document.write('falso -- ')
+        }
+
+        //true: "!" operador logico "negacao"
+        // se qualquer um dos parametros forem verdadeiro a saida sera verdadeira
+        // o resultado final sera falso, apenas, se todos os parametros forem falso.
+        if (2 == 2 && 3 >=1 && !('a'=='b')){
+            document.write('verdadeiro -- ')
+        } else {
+            document.write('falso -- ')
+        }
+        //
+
+
+        // TESTANDO //
+
+        var media = 7
+        var faltasMaximas = 0.75
+        parseFloat(media)
+        parseFloat(faltasMaximas)
+
+        var nota = prompt('Digite a nota do Aluno:')
+        var aulas = prompt('Digite o total de aulas da materia:')
+        var faltas = prompt('Digite quantas aulas o aluno fautou:')
+
+        parseInt(nota)
+        parseInt(aulas)
+        parseInt(faltas)
+        
+
+        totalFaltas = (aulas - faltas) / aulas
+        
+        document.write('Nota do aluno = ' + nota)
+        document.write('Faltas do aluno = ' + totalFaltas)
+
+
+
+        if(nota >= media && totalFaltas >= faltasMaximas){
+            document.write('O aluno esta APROVADO!')
+        } else{
+            document.write('O aluno esta REPROVADO')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
