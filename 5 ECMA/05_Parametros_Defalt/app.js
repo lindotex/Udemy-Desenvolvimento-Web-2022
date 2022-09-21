@@ -1,4 +1,4 @@
-// ECMA 2015 :: Template Strings
+// ECMA 2015 :: Parametros Default
 
 // Função
 
