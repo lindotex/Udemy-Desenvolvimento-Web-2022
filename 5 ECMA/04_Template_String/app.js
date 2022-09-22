@@ -1,5 +1,9 @@
 // ECMA 2015 :: Template Strings
 
+// Utiliza-se cráse dupla: >>> ` ` <<<
+// O texto pode ser concatenado escrito diretamente, sem precisar do + ...
+// para adicionar a variavel no texto, basta utilizar a sintaxe: ${variavel}.
+
 // 1ª : Contatenando
 let nome = 'jorge'
 
