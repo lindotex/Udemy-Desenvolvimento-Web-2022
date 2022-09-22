@@ -1,0 +1,41 @@
+## Herança - ES6 :
+## Reutilizavel e Manutençao!
+
+- Arvore de Atributos e métodos comuns
+
+    :> classe Animais  (superClass)
+        //atributos comuns a todos os animais
+        ::cor = ''
+        ::tamanho = null
+        ::peso = null
+
+        //Metodos de Animais
+        dormir()
+        comer()
+
+        :> classe Cachorros extends Animal (subclass)
+            ::super() // traz os atributos da superClass
+            ::orelhas = 'grandes'
+
+            //Metodos de Cachorros
+            correr()
+            rosnar()
+            :> classe Dalmata extends Cachorros(subclass de Cachorros)
+                ::malhado = true
+            :>
+        :>    
+        :> classe Passaros extends Animal
+            ::super() // traz os atributos da superClass (Animais)
+            ::bico = ''
+
+            //Metodos de Cachorros
+            voar()
+            bicar()
+            :> classe Papagaios extends Passaros (subclass de Passaros)
+                ::super() // traz os atributos da superClass (Passaros)
+                ::saberFalar = true
+
+                saberFalar()
+            :>
+        :>    
+    :>
