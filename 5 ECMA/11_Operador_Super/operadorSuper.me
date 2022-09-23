@@ -1,0 +1,36 @@
+## Herança - ES6 :
+## Reutilizavel e Manutençao!
+
+#### USO DO SUPER:
+
+- Arvore de Atributos e métodos comuns
+
+    :> classe Animais  {
+         construtor(cor, tamanho, peso)
+        ::cor = cor
+        ::tamanho = tamanho
+        ::peso = peso
+        
+        dormir()
+        comer()
+    }
+
+        :> classe Passaros extends Animal{
+            construtor(bico, cor, tamanho, peso)
+            super(cor, tamanho, peso) 
+            ::bico = bico
+
+            voar()
+            bicar()
+            }            
+            :> classe Papagaios extends Passaros {
+                construtor(saberFalar, cor, tamanho, peso)
+                
+                ::super('medio', cor, tamanho, peso)
+                ::saberFalar = saberFalar
+
+                saberFalar()
+                }
+            :>
+        :>    
+    :>
