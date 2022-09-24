@@ -45,23 +45,318 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
 </div>
 <div>
 <ul>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/HTML5-3%20hours-orange"/> Cabeçalhos, listas, imagens, links, tabelas, formulários, hear, nav, footer, article, section aside.</li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/CSS%20-6%20hours-blue"/> Seletores, div & span, cores, modelo caixa, elementos flutuantes, posicionamento, formatando links.</li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Advanced%20CSS%20-8%20hours-blue"/> Herança, especifidade, barra navegação vertical e horizontal, abas, layouts líquidos, largura fixa, parallax, fontes customizadas.</li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Special%20Resources%20CSS%20-4%20hours-blue"/> Normalize css, cantos arredondados, degradês, sombras, animações, transições, flexbox.</li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Bootrstrap%20CSS%20-12%20hours-blueviolet"/> Responsivo, textos, alinhamentos, cores, media query, botões, barra navegação, listas, inputs, alertas, tabelas, cards, grids, flexbox.</li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/JavaScript-16%20hours-yellow"/> Variáveis, array, condicionais, operadores de comparação, operadores lógicos, funções, eventos, DOM, loops, BOM.</li>  
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/> <img src="https://img.shields.io/badge/ES6%202015-16%20hours-yellow"/> Var e let, orientação a objetos, literais, prototype, web storage, funções de array. And ECMA Script, 2016, 2017, 2018, 2019, 2020 e 2021</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/PHP%207-12%20hours-blueviolet"/> Variáveis, arrays, condicionais, operadores de comparação e lógicos, funções, orientação a objetos, abstração, herança, polimorfismo, interfaces.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/> Insert, update, select, delete, filtros, operadores de comparação e lógicos, relacionamentos, inner join, left join, right join.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/> requisições síncronas, requisições assíncronas, XMLHttpRequest, estados da requisição, status, notação XML, notação JSON.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/> Conexão com banco, executando instruções SQL, fetch, fetch all, foreach, SQL injection.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Deploy%20of%20Web%20Aplications%20on%20Internet%20-1%20hours-informational"/> DNS, hospedagem, cPainel, FTP, configuração do PHP e MySQL.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/> Selecionando e manipulando elementos HTML, navegando entre elementos, manipulando CSS, eventos de teclado, mouse e formulário, animações, ajax..</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/> Composer, controlador, rota, modelo, visão, abstração, reutilizando layout, conexão com banco de dados.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/> Registro e autenticação de usuários, criando timeline, pesquisando usuários, exibindo tweets, seguindo e deixando de seguir, paginação.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/> Requisições, rotas, dependências, middleware, respostas, banco de dados, criando API.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/SASS-3%20hours-ff69b4"/> Alinhamento, variáveis, interpolação, for, while, each, funções, mixin, herança, diretivas de controle.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/> Componentes, botões, entrada de dados, data biding, angular, grids, navegação e modelo.</li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/> Instalação, temas, personalização, plugins, usuários, comentários, criador de páginas com elementor.</li>
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/HTML5-3%20hours-orange"/> 
+  <details>
+    <summary>HTML Program</summary>
+    <br>
+    <ul>
+        <li> [x] Headers </li>
+        <li> [x] Lists </li>
+        <li> [x] Images </li>
+        <li> [x] Links </li>
+        <li> [x] Tables </li>
+        <li> [x] Forms </li>
+        <li> [x] Nav </li>
+        <li> [x] Footers </li>
+        <li> [x] Articles </li>
+        <li> [x] Sections </li>
+        <li> [x] Aside </li>
+      </ul>
+  </details>  
+</li>
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/CSS%20-6%20hours-blue"/> 
+    <details>
+    <summary>CSS Program</summary>
+    <br>
+    <ul>
+        <li> [x] Selectors </li>
+        <li> [x] Div & Span </li>
+        <li> [x] Colors </li>
+        <li> [x] Box Model </li>
+        <li> [x] Float Elements </li>
+        <li> [x] Positioning </li>
+        <li> [x] Text Decoration </li>
+        <li> [x] Formating Links </li>        
+      </ul>
+  </details>     
+  </li>
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Advanced%20CSS%20-8%20hours-blue"/> 
+        <details>
+    <summary>Advanced CSS Program</summary>
+    <br>
+    <ul>
+        <li> [x] Heritage </li>
+        <li> [x] Especificity </li>
+        <li> [x] Vertical and Horizontal Navbar</li>
+        <li> [x] Tabs </li>
+        <li> [x] Liquid Layouts</li>
+        <li> [x] Parallax Effect</li>
+        <li> [x] Customized fonts</li>       
+      </ul>
+  </details>
+  </li>
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Special%20Resources%20CSS%20-4%20hours-blue"/> 
+    <details>
+    <summary>Advanced CSS Program</summary>
+    <br>
+    <ul>
+        <li> [x] Normalize CSS </li>
+        <li> [x] Border Radius</li>
+        <li> [x] Gradient</li>
+        <li> [x] Shadows </li>
+        <li> [x] Animations</li>
+        <li> [x] Transition</li>
+        <li> [x] Flexbox</li>
+        <li> [x] CSS Grid</li>
+      </ul>
+  </details>
+  </li>
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Bootrstrap%20CSS%20-12%20hours-blueviolet"/> 
+        <details>
+    <summary>Bootstrap Program</summary>
+    <br>
+    <ul>
+        <li> [x] Installing Bootstrap </li>
+        <li> [x] Responsivity</li>
+        <li> [x] Text Manipulation</li>
+        <li> [x] Align Manipulation </li>
+        <li> [x] Colors Manipulation</li>
+        <li> [x] Mediq Queries Manipulation</li>
+        <li> [x] Buttons</li>
+        <li> [x] Navbars</li>
+        <li> [x] Lists</li>
+        <li> [x] Inputs</li>
+        <li> [x] Alerts</li>
+        <li> [x] Tables</li>
+        <li> [x] Cards</li>
+        <li> [x] Grid Propieties</li>
+        <li> [x] Flexbox</li>
+      </ul>
+  </details>    
+  </li>
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/JavaScript-16%20hours-yellow"/> 
+            <details>
+    <summary>JavaScript Program</summary>
+    <br>
+    <ul>
+        <li> [x] Variables </li>
+        <li> [x] Arrays</li>
+        <li> [x] Conditionals</li>
+        <li> [x] Comparison Operators </li>
+        <li> [x] Logical Operators</li>
+        <li> [x] Functions</li>
+        <li> [x] Events</li>
+        <li> [x] DOM Manipulation</li>
+        <li> [x] Loops Structures</li>
+        <li> [x] BOM Manipulatio</li>        
+      </ul>
+  </details>      
+  </li>  
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/> <img src="https://img.shields.io/badge/ES6%202015-16%20hours-yellow"/> 
+                <details>
+    <summary>ES6 and Updates Program</summary>
+    <br>
+    <ul>
+        <li> [x] Var and Let proprieties </li>
+        <li> [x] Object-oriented Programming Paradigm (OOP)</li>
+        <li> [x] Literal Objects</li>
+        <li> [ ] Prototype Objects </li>
+        <li> [ ] Web Storage</li>
+        <li> [ ] Array Functions</li>
+        <li> [ ] ECMA 2016</li>
+        <li> [ ] ECMA 2017</li>
+        <li> [ ] ECMA 2018</li>
+        <li> [ ] ECMA 2019</li>
+        <li> [ ] ECMA 2020</li>
+        <li> [ ] ECMA 2021</li>
+      </ul>
+  </details>    
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/PHP%207-12%20hours-blueviolet"/> 
+                    <details>
+    <summary>PHP Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Variables </li>
+        <li> [ ] Arrays</li>
+        <li> [ ] Conditionals</li>
+        <li> [ ] Logical Operators</li>
+        <li> [ ] Functions</li>
+        <li> [ ] OOP in PHP</li>
+        <li> [ ] Abstraction OOP</li>
+        <li> [ ] Heritage OOP</li>
+        <li> [ ] Polymorphism OOP</li>
+        <li> [ ] Interfaces</li>
+      </ul>
+  </details>      
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/> 
+    <details>
+    <summary>MySQL Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Insert </li>
+        <li> [ ] Update</li>
+        <li> [ ] Select</li>
+        <li> [ ] Delete</li>
+        <li> [ ] Filters</li>
+        <li> [ ] Logical Operators</li>
+        <li> [ ] Query Relations</li>
+        <li> [ ] Inner Join</li>
+        <li> [ ] Right Join</li>        
+      </ul>
+  </details>      
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/> 
+        <details>
+    <summary>AJAX Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Synchronous Requests </li>
+        <li> [ ] Asynchronous Requests</li>
+        <li> [ ] XML-Http Requests</li>
+        <li> [ ] Requisition State</li>
+        <li> [ ] Status</li>
+        <li> [ ] XML Notation</li>
+        <li> [ ] JSON Notation</li>        
+      </ul>
+  </details>     
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/> 
+                <details>
+    <summary>PHP w/ PDO & MySQL Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Database Connection </li>
+        <li> [ ] Executing SQL Instructions</li>
+        <li> [ ] Fetch</li>
+        <li> [ ] Fetch All</li>
+        <li> [ ] Foreach</li>
+      <li> [ ] SQL Injection</li>
+      </ul>
+  </details>      
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Deploy%20of%20Web%20Aplications%20on%20Internet%20-1%20hours-informational"/>
+    <details>
+    <summary>Deploy Program</summary>
+    <br>
+    <ul>
+        <li> [ ] DNS </li>
+        <li> [ ] Hosting</li>
+        <li> [ ] cPainel</li>
+        <li> [ ] FTP All</li>
+        <li> [ ] PHP Configuration</li>
+      <li> [ ] MySQL Configuration</li>
+      </ul>
+  </details>     
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/> 
+    <details>
+    <summary>jQuery Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Selecting and Manipulating HTML Elements </li>
+        <li> [ ] Navigationg Throug Elements</li>
+        <li> [ ] CSS Manipulation</li>
+        <li> [ ] Keyboard Events</li>
+        <li> [ ] Mouse Events</li>
+        <li> [ ] Forms Events</li>
+        <li> [ ] Animations</li>
+        <li> [ ] AJAX</li>
+      </ul>
+  </details>    
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/> 
+    <details>
+    <summary>PHP MCV Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Composer </li>
+        <li> [ ] Controlers </li>
+        <li> [ ] Routers</li>
+        <li> [ ] Layout Models</li>
+        <li> [ ] Vision</li>
+        <li> [ ] Reusing Layouts</li>
+        <li> [ ] Database Connection</li>
+      </ul>
+  </details>     
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/> 
+    <details>
+    <summary>Twitter Clone Project Program</summary>
+    <br>
+    <ul>
+        <li> [ ] User Authentication</li>
+        <li> [ ] Timeline Generation </li>
+        <li> [ ] Search bar</li>
+        <li> [ ] Showing Tweets</li>
+        <li> [ ] Follow and Unfollow Function</li>
+        <li> [ ] Pagination</li>        
+      </ul>
+  </details>    
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/> 
+        <details>
+    <summary>API Manipulation Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Requests</li>
+        <li> [ ] Routers </li>
+        <li> [ ] Dependencies</li>
+        <li> [ ] Middleware</li>
+        <li> [ ] Answers</li>
+        <li> [ ] Database</li>
+        <li> [ ] Creating APIs</li>
+      </ul>
+  </details>      
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/SASS-3%20hours-ff69b4"/> 
+    <details>
+    <summary>SASS Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Alignment</li>
+        <li> [ ] Variables </li>
+        <li> [ ] Interpolation</li>
+        <li> [ ] For</li>
+        <li> [ ] While</li>
+        <li> [ ] Each</li>
+        <li> [ ] Functions</li>
+        <li> [ ] Mixin</li>
+        <li> [ ] Heritage</li>
+        <li> [ ] Control Derivatives</li>
+      </ul>
+  </details>     
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/> 
+        <details>
+    <summary>IONIC Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Components</li>
+        <li> [ ] Buttons </li>
+        <li> [ ] Data Entrance</li>
+        <li> [ ] Data Biding</li>
+        <li> [ ] Angular</li>
+        <li> [ ] Grids</li>
+        <li> [ ] Navigation</li>
+        <li> [ ] Modeling</li>        
+      </ul>
+  </details>     
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/> 
+            <details>
+    <summary>WordPress Program</summary>
+    <br>
+    <ul>
+        <li> [ ] Install</li>
+        <li> [ ] Themes </li>
+        <li> [ ] Customization</li>
+        <li> [ ] Plugins</li>
+        <li> [ ] Users</li>
+        <li> [ ] Contacts</li>
+        <li> [ ] Elementor Page Generator</li>        
+      </ul>
+  </details>     
+  </li>
 </div>
