@@ -160,7 +160,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Var and Let proprieties </li>
         <li> [x] Object-oriented Programming Paradigm (OOP)</li>
         <li> [x] Literal Objects</li>
-        <li> [ ] Prototype Objects </li>
+        <li> [X] Prototype Objects </li>
         <li> [ ] Web Storage</li>
         <li> [ ] Array Functions</li>
         <li> [ ] ECMA 2016</li>
