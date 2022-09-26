@@ -76,7 +76,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Float Elements </li>
         <li> [x] Positioning </li>
         <li> [x] Text Decoration </li>
-        <li> [x] Formating Links </li>        
+        <li> [x] Formatting Links </li>        
       </ul>
   </details>     
   </li>
@@ -86,7 +86,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [x] Heritage </li>
-        <li> [x] Especificity </li>
+        <li> [x] Specificity </li>
         <li> [x] Vertical and Horizontal Navbar</li>
         <li> [x] Tabs </li>
         <li> [x] Liquid Layouts</li>
@@ -106,7 +106,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Shadows </li>
         <li> [x] Animations</li>
         <li> [x] Transition</li>
-        <li> [x] Flexbox</li>
+        <li> [x] Flex box</li>
         <li> [x] CSS Grid</li>
       </ul>
   </details>
@@ -117,20 +117,20 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [x] Installing Bootstrap </li>
-        <li> [x] Responsivity</li>
+        <li> [x] Responsively</li>
         <li> [x] Text Manipulation</li>
         <li> [x] Align Manipulation </li>
         <li> [x] Colors Manipulation</li>
-        <li> [x] Mediq Queries Manipulation</li>
+        <li> [x] Media Queries Manipulation</li>
         <li> [x] Buttons</li>
-        <li> [x] Navbars</li>
+        <li> [x] Navbar</li>
         <li> [x] Lists</li>
         <li> [x] Inputs</li>
         <li> [x] Alerts</li>
         <li> [x] Tables</li>
         <li> [x] Cards</li>
-        <li> [x] Grid Propieties</li>
-        <li> [x] Flexbox</li>
+        <li> [x] Grid Proprieties</li>
+        <li> [x] Flex box</li>
       </ul>
   </details>    
   </li>
@@ -148,7 +148,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Events</li>
         <li> [x] DOM Manipulation</li>
         <li> [x] Loops Structures</li>
-        <li> [x] BOM Manipulatio</li>        
+        <li> [x] BOM</li>        
       </ul>
   </details>      
   </li>  
@@ -162,6 +162,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Literal Objects</li>
         <li> [X] Prototype Objects </li>
         <li> [X] Rest ... Spread</li>
+        <li> [X] Destructuring Assignment</li>
         <li> [ ] Web Storage</li>
         <li> [ ] Array Functions</li>
         <li> [ ] ECMA 2016</li>
@@ -244,7 +245,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <ul>
         <li> [ ] DNS </li>
         <li> [ ] Hosting</li>
-        <li> [ ] cPainel</li>
+        <li> [ ] cPanel</li>
         <li> [ ] FTP All</li>
         <li> [ ] PHP Configuration</li>
       <li> [ ] MySQL Configuration</li>
@@ -257,7 +258,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [ ] Selecting and Manipulating HTML Elements </li>
-        <li> [ ] Navigationg Throug Elements</li>
+        <li> [ ] Navigation Through Elements</li>
         <li> [ ] CSS Manipulation</li>
         <li> [ ] Keyboard Events</li>
         <li> [ ] Mouse Events</li>
@@ -273,7 +274,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [ ] Composer </li>
-        <li> [ ] Controlers </li>
+        <li> [ ] Controllers </li>
         <li> [ ] Routers</li>
         <li> [ ] Layout Models</li>
         <li> [ ] Vision</li>
@@ -291,7 +292,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Timeline Generation </li>
         <li> [ ] Search bar</li>
         <li> [ ] Showing Tweets</li>
-        <li> [ ] Follow and Unfollow Function</li>
+        <li> [ ] Follow and un-follow Function</li>
         <li> [ ] Pagination</li>        
       </ul>
   </details>    
@@ -356,7 +357,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Plugins</li>
         <li> [ ] Users</li>
         <li> [ ] Contacts</li>
-        <li> [ ] Elementor Page Generator</li>        
+        <li> [ ] Page Generator</li>        
       </ul>
   </details>     
   </li>
