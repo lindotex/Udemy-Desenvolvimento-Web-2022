@@ -161,6 +161,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Object-oriented Programming Paradigm (OOP)</li>
         <li> [x] Literal Objects</li>
         <li> [X] Prototype Objects </li>
+        <li> [X] Rest ... Spread</li>
         <li> [ ] Web Storage</li>
         <li> [ ] Array Functions</li>
         <li> [ ] ECMA 2016</li>
