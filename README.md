@@ -163,8 +163,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Prototype Objects </li>
         <li> [X] Rest ... Spread</li>
         <li> [X] Destructuring Assignment</li>
-        <li> [ ] Web Storage</li>
-        <li> [ ] Array Functions</li>
+        <li> [X] Web Storage (Local Storage, Section Storage, Cookies, IndexDB, Web SQL)</li>
+        <li> [X] Array Functions</li>
+        <li> [X] App CRUD Project</li>
         <li> [ ] ECMA 2016</li>
         <li> [ ] ECMA 2017</li>
         <li> [ ] ECMA 2018</li>
