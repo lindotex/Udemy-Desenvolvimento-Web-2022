@@ -165,7 +165,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Destructuring Assignment</li>
         <li> [X] Web Storage (Local Storage, Section Storage, Cookies, IndexDB, Web SQL)</li>
         <li> [X] Array Functions</li>
-        <li> [X] App CRUD Project</li>
+        <li> [X] App CRD Project</li>
+        <li> [ ] Generators</li>
+        <li> [ ] Promises</li>
         <li> [ ] ECMA 2016</li>
         <li> [ ] ECMA 2017</li>
         <li> [ ] ECMA 2018</li>
@@ -318,16 +320,16 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <summary>SASS Program</summary>
     <br>
     <ul>
-        <li> [ ] Alignment</li>
-        <li> [ ] Variables </li>
-        <li> [ ] Interpolation</li>
-        <li> [ ] For</li>
-        <li> [ ] While</li>
-        <li> [ ] Each</li>
-        <li> [ ] Functions</li>
-        <li> [ ] Mixin</li>
-        <li> [ ] Heritage</li>
-        <li> [ ] Control Derivatives</li>
+        <li> [X] Alignment</li>
+        <li> [X] Variables </li>
+        <li> [X] Interpolation</li>
+        <li> [X] For</li>
+        <li> [X] While</li>
+        <li> [X] Each</li>
+        <li> [X] Functions</li>
+        <li> [X] Mixin</li>
+        <li> [X] Heritage</li>
+        <li> [X] Control Directives</li>
       </ul>
   </details>     
   </li>
