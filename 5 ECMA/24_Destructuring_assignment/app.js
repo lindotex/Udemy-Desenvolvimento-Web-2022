@@ -39,25 +39,52 @@
 
 //-----------------------------------------------------------------------------
 // Objetos
+//-----------------------------------------------------------------------------
 // token para objetos = {}
-let produto = {
-    descricao: 'Notebook',
-    preco: 1800,
-    detalhes: {  // Composição  "é um" ou  "tem um" de Objeto em outro Objeto
-        fabricante: 'abc',
-        modelo: 'xyz'
-    }
+// let produto = {
+//     descricao: 'Notebook',
+//     preco: 1800,
+//     detalhes: {  // Composição  "é um" ou  "tem um" de Objeto em outro Objeto
+//         fabricante: 'abc',
+//         modelo: 'xyz'
+//     }
+// }
+
+// // let { descricao, preco} = produto
+// // console.log(descricao, preco)
+// // ou
+
+// let { descricao : d, preco: p  } = produto
+// console.log(d, p)
+
+// // let { descricao, preco, desconto  } = produto
+// // console.log(descricao, preco, desconto )
+
+// let { descricao, preco, desconto=5, detalhes: {fabricante, modelo} } = produto
+// console.log(descricao, preco, desconto, fabricante, model)
+
+
+// Funções
+
+// let arr = [10, 20, 30, 40]
+
+// function teste([a, b,, c,d =100]){
+//     console.log(a,b,c,d)
+// }
+
+// teste(arr)
+
+// OBJ literal
+
+let obj ={
+    a:10,
+    b:20,
+    c:30,
+    d:40
 }
 
-// let { descricao, preco} = produto
-// console.log(descricao, preco)
-// ou
+function teste({a,b}) {
+    console.log(a,b)    
+}
 
-let { descricao : d, preco: p  } = produto
-console.log(d, p)
-
-// let { descricao, preco, desconto  } = produto
-// console.log(descricao, preco, desconto )
-
-let { descricao, preco, desconto=5, detalhes: {fabricante, modelo} } = produto
-console.log(descricao, preco, desconto, fabricante, modelo )
+teste(obj)
