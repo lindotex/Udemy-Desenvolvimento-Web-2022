@@ -76,15 +76,34 @@
 
 // OBJ literal
 
-let obj ={
-    a:10,
-    b:20,
-    c:30,
-    d:40
+// let obj ={
+//     a:10,
+//     b:20,
+//     c:30,
+//     d:40
+// }
+
+// function teste({a,b}) {
+//     console.log(a,b)    
+// }
+
+
+
+// teste(obj)
+
+// let arr = [10,20,30,40]
+
+// let [a, ...resto] = arr
+
+// console.log(a)
+// console.log(resto)
+
+//Destructuring de Objetos
+
+let obj = {
+    a: 10, b:20, c:30, d:40,
 }
 
-function teste({a,b}) {
-    console.log(a,b)    
-}
-
-teste(obj)
+let {a, ...x} = obj //Operador Rest... Juntando 3 atributos em 1 só.
+console.log(a)
+console.log(x)
