@@ -315,7 +315,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>      
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/SASS-3%20hours-ff69b4"/> 
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/SASS-3%20hours-ff69b4"/> 
     <details>
     <summary>SASS Program</summary>
     <br>
