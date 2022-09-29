@@ -182,9 +182,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <summary>PHP Program</summary>
     <br>
     <ul>
-        <li> [ ] Variables </li>
-        <li> [ ] Arrays</li>
-        <li> [ ] Conditionals</li>
+        <li> [X] Variables </li>
+        <li> [X] Arrays</li>
+        <li> [X] Conditionals</li>
         <li> [ ] Logical Operators</li>
         <li> [ ] Functions</li>
         <li> [ ] OOP in PHP</li>
