@@ -188,7 +188,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Logical Operators</li>
         <li> [X] Casting of types</li>
         <li> [X] Arithmetical Operators</li>
-        <li> [ ] Functions</li>
+        <li> [X] Functions</li>
         <li> [ ] OOP in PHP</li>
         <li> [ ] Abstraction OOP</li>
         <li> [ ] Heritage OOP</li>
