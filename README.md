@@ -168,7 +168,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] App CRD Project</li>
         <li> [ ] Generators</li>
         <li> [ ] Promises</li>
-        <li> [ ] ECMA 2016</li>
+        <li> [x] ECMA 2016</li>
         <li> [ ] ECMA 2017</li>
         <li> [ ] ECMA 2018</li>
         <li> [ ] ECMA 2019</li>
