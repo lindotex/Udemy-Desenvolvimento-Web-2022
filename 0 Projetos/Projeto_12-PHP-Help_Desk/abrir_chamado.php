@@ -1,4 +1,12 @@
-<?php require_once("validador_acesso.php");?>
+<?php require_once("validador_acesso.php");
+    echo '<pre>';
+    echo 'ID: ';
+    print_r($_SESSION['id']);
+    echo ' - ';
+    echo 'Usuario: ';
+    print_r($_SESSION['email']);
+    echo '</pre>';
+?>
 
 <html>
   <head>
