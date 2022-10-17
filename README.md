@@ -189,8 +189,8 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Casting of types</li>
         <li> [X] Arithmetical Operators</li>
         <li> [X] Functions</li>
-        <li> [ ] OOP in PHP</li>
-        <li> [ ] Abstraction OOP</li>
+        <li> [X] OOP in PHP</li>
+        <li> [X] Abstraction OOP</li>
         <li> [ ] Heritage OOP</li>
         <li> [ ] Polymorphism OOP</li>
         <li> [ ] Interfaces</li>
