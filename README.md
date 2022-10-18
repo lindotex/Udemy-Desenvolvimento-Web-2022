@@ -191,7 +191,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Functions</li>
         <li> [X] OOP in PHP</li>
         <li> [X] Abstraction OOP</li>
-        <li> [ ] Heritage OOP</li>
+        <li> [X] Heritage OOP</li>
         <li> [ ] Polymorphism OOP</li>
         <li> [ ] Interfaces</li>
       </ul>
