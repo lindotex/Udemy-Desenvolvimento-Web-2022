@@ -193,6 +193,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Abstraction OOP</li>
         <li> [X] Heritage OOP</li>
         <li> [ ] Polymorphism OOP</li>
+        <li> [ ] Encapsulation OOP</li>
         <li> [ ] Interfaces</li>
       </ul>
   </details>      
