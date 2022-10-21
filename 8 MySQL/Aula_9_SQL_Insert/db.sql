@@ -1,0 +1,1 @@
+INSERT into tb_cursos(`id_curso`,`imagem_curso`,`nome_curso`,`resumo`,`data_cadastro`,`ativa`,`investimento`,`carga_horaria`) values(2,'curso_angular.jpg','Web completo com JS, TS e Angular','Aprenda a Criar aplicaçõs front-end incriveis com JS, TS e Angular','2022-10-22 19:34:00',1,575.86,35);
