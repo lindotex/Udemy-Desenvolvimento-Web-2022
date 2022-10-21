@@ -206,12 +206,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <summary>MySQL Program</summary>
     <br>
     <ul>
-        <li> [X] CREATE BD</li>
-        <li> [X] DROP BD</li>
-        <li> [X] CREATE TABLE</li>
-        <li> [X] DROP TABLE</li>
-        <li> [ ] Insert </li>
+        <li> [X] CREATE</li>
+        <li> [X] DROP</li>
+        <li> [X] RENAME</li>
         <li> [ ] Update</li>
+        <li> [ ] Insert </li>
         <li> [ ] Select</li>
         <li> [ ] Delete</li>
         <li> [ ] Filters</li>
