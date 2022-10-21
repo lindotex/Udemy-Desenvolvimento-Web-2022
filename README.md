@@ -196,6 +196,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Encapsulation OOP</li>
         <li> [X] Interfaces</li>
         <li> [X] Namespaces</li>
+        <li> [X] Try, catch, Finally, Throw</li>
       </ul>
   </details>      
   </li>
