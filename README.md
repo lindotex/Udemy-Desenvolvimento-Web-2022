@@ -195,7 +195,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Polymorphism OOP</li>
         <li> [X] Encapsulation OOP</li>
         <li> [X] Interfaces</li>
-        <li> [ ] Namespaces</li>
+        <li> [X] Namespaces</li>
       </ul>
   </details>      
   </li>
