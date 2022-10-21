@@ -177,7 +177,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>    
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/PHP%207-12%20hours-blueviolet"/> 
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/PHP%207-12%20hours-blueviolet"/> 
                     <details>
     <summary>PHP Program</summary>
     <br>
@@ -197,6 +197,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Interfaces</li>
         <li> [X] Namespaces</li>
         <li> [X] Try, catch, Finally, Throw</li>
+        <li> [X] Project - App Send e-mail</li>
       </ul>
   </details>      
   </li>
