@@ -201,11 +201,15 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>      
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/> 
     <details>
     <summary>MySQL Program</summary>
     <br>
     <ul>
+        <li> [X] CREATE BD</li>
+        <li> [X] DROP BD</li>
+        <li> [X] CREATE TABLE</li>
+        <li> [X] DROP TABLE</li>
         <li> [ ] Insert </li>
         <li> [ ] Update</li>
         <li> [ ] Select</li>
