@@ -209,8 +209,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] CREATE</li>
         <li> [X] DROP</li>
         <li> [X] RENAME</li>
-        <li> [X] Insert </li>
-        <li> [X] Select</li>
+        <li> [X] INSERT </li>
+        <li> [X] SELECT</li>
+        <li> [X] WHERE</li>
         <li> [ ] Update</li>
         <li> [ ] Delete</li>
         <li> [ ] Filters</li>
