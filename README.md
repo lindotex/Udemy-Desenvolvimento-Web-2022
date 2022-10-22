@@ -212,11 +212,13 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] INSERT </li>
         <li> [X] SELECT</li>
         <li> [X] WHERE</li>
-        <li> [X] BETWEEN</li>
-        <li> [X] Update</li>
-        <li> [X] Delete</li>
         <li> [X] Filters with Comparative operators '>', '<', '=', '<=' & '>='.</li>
         <li> [X] Filters with Logical operators AND & OR</li>
+        <li> [X] BETWEEN</li>
+        <li> [X] IN</li>
+        <li> [X] NOT</li>
+        <li> [X] Update</li>
+        <li> [X] Delete</li>
         <li> [ ] Logical Operators</li>
         <li> [ ] Query Relations</li>
         <li> [ ] Inner Join</li>
