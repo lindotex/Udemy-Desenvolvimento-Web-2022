@@ -214,7 +214,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] WHERE</li>
         <li> [X] Update</li>
         <li> [X] Delete</li>
-        <li> [X] Filters</li>
+        <li> [X] Filters with Logical operators</li>
         <li> [ ] Logical Operators</li>
         <li> [ ] Query Relations</li>
         <li> [ ] Inner Join</li>
