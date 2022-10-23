@@ -218,6 +218,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] IN</li>
         <li> [X] NOT</li>
         <li> [X] LIKE ( % and _ )</li>
+        <li> [X] ORDER BY</li>
         <li> [X] Update</li>
         <li> [X] Delete</li>
         <li> [ ] Logical Operators</li>
