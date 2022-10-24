@@ -222,6 +222,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] LIMIT & OFFSET</li>
         <li> [X] MAX, MIN, AVG</li>
         <li> [X] SUM e COUNT</li>
+        <li> [X] GROUP BY</li>
         <li> [X] Update</li>
         <li> [X] Delete</li>
         <li> [ ] Logical Operators</li>
