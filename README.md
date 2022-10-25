@@ -201,7 +201,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>      
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/> 
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/> 
     <details>
     <summary>MySQL Program</summary>
     <br>
@@ -213,7 +213,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] SELECT</li>
         <li> [X] WHERE</li>
         <li> [X] Filters with Comparative operators '>', '<', '=', '<=' & '>='.</li>
-        <li> [X] Filters with Logical operators AND & OR</li>
+        <li> [X] Filters with Logical operators AND & OR</li>        
         <li> [X] BETWEEN</li>
         <li> [X] IN</li>
         <li> [X] NOT</li>
@@ -229,14 +229,12 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] TABLE RELATIONS</li>
         <li> [X] PRIMARY KEY, FOREIGN KEY</li>
         <li> [X] Exercício: Projeto Loja Virtual</li>
-        <li> [ ] Logical Operators</li>
-        <li> [ ] Query Relations</li>
-        <li> [ ] Inner Join</li>
-        <li> [ ] Right Join</li>        
+        <li> [X] LEFT JOIN, INNER JOIN, RIGHT JOIN</li>    
+        <li> [X] TABLE ALIAS</li>    
       </ul>
   </details>      
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/> 
         <details>
     <summary>AJAX Program</summary>
     <br>
