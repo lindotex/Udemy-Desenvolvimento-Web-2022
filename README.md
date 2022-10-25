@@ -239,6 +239,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <summary>AJAX Program</summary>
     <br>
     <ul>
+        <li> [X] About AJAX, XML and JSON </li>
         <li> [ ] Synchronous Requests </li>
         <li> [ ] Asynchronous Requests</li>
         <li> [ ] XML-Http Requests</li>

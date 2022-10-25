@@ -1,0 +1,13 @@
+# Introdução ao AJAX
+
+Asynchronous JavaScript And XML.
+Hoje em dia, mais utilizado com JSON que com XML.
+
+
+## Requisições Síncronas
+Requisições encadeadas que necessariamente, aguardam a conclusão de uma etapa, para dar sequencia na outra.
+Acarretando assim, lentidão e demora no carregamento da aplicação.
+
+## Requisições assíncronas
+Requisições encadeadas que não necessariamente, aguardam a conclusão de uma etapa, para dar sequencia na outra.
+Fazendo com que a aplicação seja carregada de forma mais dinamica e rápida.
