@@ -226,6 +226,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] HEAVING</li>
         <li> [X] UPDATE</li>
         <li> [X] Delete</li>
+        <li> [X] TABLE RELATIONS</li>
+        <li> [X] PRIMARY KEY, FOREIGN KEY</li>
+        <li> [X] Exercício: Projeto Loja Virtual</li>
         <li> [ ] Logical Operators</li>
         <li> [ ] Query Relations</li>
         <li> [ ] Inner Join</li>
