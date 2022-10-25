@@ -240,9 +240,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [X] About AJAX, XML and JSON </li>
-        <li> [ ] Synchronous Requests </li>
-        <li> [ ] Asynchronous Requests</li>
-        <li> [ ] XML-Http Requests</li>
+        <li> [X] Synchronous Requests </li>
+        <li> [X] Asynchronous Requests</li>
+        <li> [X] XML-Http Requests</li>
         <li> [ ] Requisition State</li>
         <li> [ ] Status</li>
         <li> [ ] XML Notation</li>
