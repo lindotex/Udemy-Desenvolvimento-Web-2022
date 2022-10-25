@@ -223,6 +223,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] MAX, MIN, AVG</li>
         <li> [X] SUM e COUNT</li>
         <li> [X] GROUP BY</li>
+        <li> [X] HEAVING</li>
         <li> [X] Update</li>
         <li> [X] Delete</li>
         <li> [ ] Logical Operators</li>
