@@ -20,7 +20,7 @@ SELECT * FROM tb_produtos LEFT JOIN tb_imagens ON (tb_produtos.id_produto = tb_i
 Prioriza todos os registros da tabela a direita + CASO EXISTA, todos os registros da tabela a esquerda.
 
 - Exemplo1:
-SELECT * FROM tb_clientes LEFT JOIN tb_pedidos ON(tb_clientes.id_cliente = tb_pedidos.id_cliente);
+SELECT * FROM tb_clientes RIGHT JOIN tb_pedidos ON(tb_clientes.id_cliente = tb_pedidos.id_cliente);
 
 - Exemplo2:
 SELECT * FROM tb_clientes RIGHT JOIN tb_pedidos ON(tb_clientes.id_cliente = tb_pedidos.id_cliente);
@@ -28,6 +28,8 @@ SELECT * FROM tb_clientes RIGHT JOIN tb_pedidos ON(tb_clientes.id_cliente = tb_p
 
 ## INNER JOIN:
 Prioriza todos os registros da tabela a direita e a esquerda em que existam relacionamentos entre registros.
+
+
 
 - Exemplo1:
 INSERT INTO tb_produtos(produto, valor) VALUES ('HD Externo Portátil Seagate Expansion 1TB USB 3.0', 274.90);
