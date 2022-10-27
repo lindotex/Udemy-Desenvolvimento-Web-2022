@@ -8,6 +8,7 @@
     <!-- bootstrap - link cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="./xmltojson.js"></script>
     <script>
         function getfilmes(){
             let xmlHttp = new XMLHttpRequest();
@@ -15,8 +16,13 @@
             xmlHttp.onreadystatechange = () =>{
                 if(xmlHttp.readyState == 4 && xmlHttp.status == 200){
                     let XMLFilmes = xmlHttp.responseText
-                }
 
+                    let parser = new DOMParser()
+
+                    domFilmes = parser.parseFromString(XMLFilmes, 'text/xml')
+
+                    jsonFilmes = xmlToJson(domFilmes)
+                }
                 if(xmlHttp.send(xmlHttp.readyState == 4 && xmlHttp.status == 404){
                     document.getElementById('conteudo').innerHTML = 'Página nao encontrada.'
                 }
