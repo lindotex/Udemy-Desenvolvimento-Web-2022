@@ -246,10 +246,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Loading</li>
         <li> [X] Error Status Handler</li>
         <li> [X] ajax.response</li>
-        <li> [ ] Requisition State</li>
-        <li> [ ] Status</li>
-        <li> [ ] XML Notation</li>
-        <li> [ ] JSON Notation</li>
+        <li> [X] Requisition State</li>
+        <li> [X] Status</li>
+        <li> [X] XML Notation</li>
+        <li> [X] JSON Notation</li>
+        <li> [X] XML to JSON Refactoring</li>
       </ul>
   </details>
   </li>
