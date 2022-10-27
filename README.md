@@ -11,7 +11,7 @@ Authors: <a href="https://jamiltondamasceno.com.br/">Jamilton Damasceno</a> e <a
 <div>
   <img src="https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important" alt="sublime"/>
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="visual Studio"/>
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="github  "/> 
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="github  "/>
   <br>
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="html"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="css"/>
@@ -21,19 +21,19 @@ Authors: <a href="https://jamiltondamasceno.com.br/">Jamilton Damasceno</a> e <a
   <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="php"/>
   <br>
   <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="sql"/>
-  <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" alt="apache"/>  
+  <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" alt="apache"/>
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="mariaDB"/>
   <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="jquery"/>
   <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" alt="json"/>
   <br>
-  <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="sass"/>  
+  <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="sass"/>
   <img src="https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white" alt="ionic"/>
   <img src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white" alt="wordpress"/>
   <br><br><br><br>
-  
-  
+
+
   <img src="https://img.shields.io/badge/W3Schools-Documentation-brightgreen" alt="w3c"/>
-  
+
   </div>
 
 <div>
@@ -45,7 +45,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
 </div>
 <div>
 <ul>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/HTML5-3%20hours-orange"/> 
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/HTML5-3%20hours-orange"/>
   <details>
     <summary>HTML Program</summary>
     <br>
@@ -62,9 +62,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Sections </li>
         <li> [x] Aside </li>
       </ul>
-  </details>  
+  </details>
 </li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/CSS%20-6%20hours-blue"/> 
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/CSS%20-6%20hours-blue"/>
     <details>
     <summary>CSS Program</summary>
     <br>
@@ -76,11 +76,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Float Elements </li>
         <li> [x] Positioning </li>
         <li> [x] Text Decoration </li>
-        <li> [x] Formatting Links </li>        
+        <li> [x] Formatting Links </li>
       </ul>
-  </details>     
+  </details>
   </li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Advanced%20CSS%20-8%20hours-blue"/> 
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Advanced%20CSS%20-8%20hours-blue"/>
         <details>
     <summary>Advanced CSS Program</summary>
     <br>
@@ -91,11 +91,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Tabs </li>
         <li> [x] Liquid Layouts</li>
         <li> [x] Parallax Effect</li>
-        <li> [x] Customized fonts</li>       
+        <li> [x] Customized fonts</li>
       </ul>
   </details>
   </li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Special%20Resources%20CSS%20-4%20hours-blue"/> 
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Special%20Resources%20CSS%20-4%20hours-blue"/>
     <details>
     <summary>Advanced CSS Program</summary>
     <br>
@@ -111,7 +111,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Bootrstrap%20CSS%20-12%20hours-blueviolet"/> 
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/Bootrstrap%20CSS%20-12%20hours-blueviolet"/>
         <details>
     <summary>Bootstrap Program</summary>
     <br>
@@ -132,9 +132,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Grid Proprieties</li>
         <li> [x] Flex box</li>
       </ul>
-  </details>    
+  </details>
   </li>
-  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/JavaScript-16%20hours-yellow"/> 
+  <li> [x] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/JavaScript-16%20hours-yellow"/>
             <details>
     <summary>JavaScript Program</summary>
     <br>
@@ -148,11 +148,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [x] Events</li>
         <li> [x] DOM Manipulation</li>
         <li> [x] Loops Structures</li>
-        <li> [x] BOM</li>        
+        <li> [x] BOM</li>
       </ul>
-  </details>      
-  </li>  
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/> <img src="https://img.shields.io/badge/ES6%202015-16%20hours-yellow"/> 
+  </details>
+  </li>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/> <img src="https://img.shields.io/badge/ES6%202015-16%20hours-yellow"/>
                 <details>
     <summary>ES6 and Updates Program</summary>
     <br>
@@ -175,9 +175,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] ECMA 2020</li>
         <li> [ ] ECMA 2021</li>
       </ul>
-  </details>    
+  </details>
   </li>
-  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/PHP%207-12%20hours-blueviolet"/> 
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/PHP%207-12%20hours-blueviolet"/>
                     <details>
     <summary>PHP Program</summary>
     <br>
@@ -199,9 +199,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Try, catch, Finally, Throw</li>
         <li> [X] Project - App Send e-mail</li>
       </ul>
-  </details>      
+  </details>
   </li>
-  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/> 
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/MySQL-6%20hours-9cf"/>
     <details>
     <summary>MySQL Program</summary>
     <br>
@@ -213,7 +213,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] SELECT</li>
         <li> [X] WHERE</li>
         <li> [X] Filters with Comparative operators '>', '<', '=', '<=' & '>='.</li>
-        <li> [X] Filters with Logical operators AND & OR</li>        
+        <li> [X] Filters with Logical operators AND & OR</li>
         <li> [X] BETWEEN</li>
         <li> [X] IN</li>
         <li> [X] NOT</li>
@@ -229,12 +229,12 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] TABLE RELATIONS</li>
         <li> [X] PRIMARY KEY, FOREIGN KEY</li>
         <li> [X] Exercício: Projeto Loja Virtual</li>
-        <li> [X] LEFT JOIN, INNER JOIN, RIGHT JOIN</li>    
-        <li> [X] TABLE ALIAS</li>    
+        <li> [X] LEFT JOIN, INNER JOIN, RIGHT JOIN</li>
+        <li> [X] TABLE ALIAS</li>
       </ul>
-  </details>      
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/>
         <details>
     <summary>AJAX Program</summary>
     <br>
@@ -249,11 +249,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Requisition State</li>
         <li> [ ] Status</li>
         <li> [ ] XML Notation</li>
-        <li> [ ] JSON Notation</li>        
+        <li> [ ] JSON Notation</li>
       </ul>
-  </details>     
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/>
                 <details>
     <summary>PHP w/ PDO & MySQL Program</summary>
     <br>
@@ -265,7 +265,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Foreach</li>
       <li> [ ] SQL Injection</li>
       </ul>
-  </details>      
+  </details>
   </li>
   <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Deploy%20of%20Web%20Aplications%20on%20Internet%20-1%20hours-informational"/>
     <details>
@@ -279,9 +279,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] PHP Configuration</li>
       <li> [ ] MySQL Configuration</li>
       </ul>
-  </details>     
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/>
     <details>
     <summary>jQuery Program</summary>
     <br>
@@ -295,9 +295,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Animations</li>
         <li> [ ] AJAX</li>
       </ul>
-  </details>    
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/>
     <details>
     <summary>PHP MCV Program</summary>
     <br>
@@ -310,9 +310,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Reusing Layouts</li>
         <li> [ ] Database Connection</li>
       </ul>
-  </details>     
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/>
     <details>
     <summary>Twitter Clone Project Program</summary>
     <br>
@@ -322,11 +322,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Search bar</li>
         <li> [ ] Showing Tweets</li>
         <li> [ ] Follow and un-follow Function</li>
-        <li> [ ] Pagination</li>        
+        <li> [ ] Pagination</li>
       </ul>
-  </details>    
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/>
         <details>
     <summary>API Manipulation Program</summary>
     <br>
@@ -339,9 +339,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Database</li>
         <li> [ ] Creating APIs</li>
       </ul>
-  </details>      
+  </details>
   </li>
-  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/SASS-3%20hours-ff69b4"/> 
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/SASS-3%20hours-ff69b4"/>
     <details>
     <summary>SASS Program</summary>
     <br>
@@ -357,9 +357,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Heritage</li>
         <li> [X] Control Directives</li>
       </ul>
-  </details>     
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/>
         <details>
     <summary>IONIC Program</summary>
     <br>
@@ -371,11 +371,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Angular</li>
         <li> [ ] Grids</li>
         <li> [ ] Navigation</li>
-        <li> [ ] Modeling</li>        
+        <li> [ ] Modeling</li>
       </ul>
-  </details>     
+  </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/> 
+  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/>
             <details>
     <summary>WordPress Program</summary>
     <br>
@@ -386,8 +386,8 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Plugins</li>
         <li> [ ] Users</li>
         <li> [ ] Contacts</li>
-        <li> [ ] Page Generator</li>        
+        <li> [ ] Page Generator</li>
       </ul>
-  </details>     
+  </details>
   </li>
 </div>
