@@ -243,6 +243,8 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Synchronous Requests </li>
         <li> [X] Asynchronous Requests</li>
         <li> [X] XML-Http Requests</li>
+        <li> [X] Loading</li>
+        <li> [X] Error Status Handler</li>
         <li> [ ] Requisition State</li>
         <li> [ ] Status</li>
         <li> [ ] XML Notation</li>

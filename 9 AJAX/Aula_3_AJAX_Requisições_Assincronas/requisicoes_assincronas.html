@@ -12,23 +12,35 @@
 
     <script>
         function requisitarPagina(url) {
-            let ajax = new XMLHttpRequest();
 
-            /* Requisição não iniciada = state = 0; */
-            console.log(ajax.readyState)
+            document.getElementById('conteudo').innerHTML = ''
 
-            /* Método ajax.open(), responsável por configurar a url requisitada = state = 1 */            
-            ajax.open('GET', url)
-            
-            /* Método ajax.send(), responsável por solicitar a requisição ao servidor*/
-            ajax.send()
-            
-            /* Método ajax.onreadystatechange(), responsável por solicitar a requisição ao servidor*/
-            ajax.onreadystatechange = () => {
-                console.log(ajax.readyState)
+            // Incluir imagem de loading na pagina
+            if(!document.getElementById('loading')){
+                let imgLoading = document.createElement('img')
+                imgLoading.id = 'loading'
+                imgLoading.src = 'loading.gif'
+                imgLoading.className = 'rounded mx-auto d-block'
+                document.getElementById('conteudo').appendChild(imgLoading)
             }
 
-            /* console.log(ajax) */
+            let ajax = new XMLHttpRequest();
+            ajax.open('GET', url)
+
+            ajax.onreadystatechange = () => {
+                if(ajax.readyState == 4 && ajax.status == 200) {
+                    console.log('O Status da requisição é: ', ajax.status);
+                    console.log('Requisição finalizada com sucesso.');
+                    document.getElementById('conteudo').innerHTML = 'Requisição finalizada com sucesso.'
+                }
+                if(ajax.readyState == 4 && ajax.status == 404) {
+                    console.log('Requisição finalizada: ', ajax.status);
+                    console.log('Não foi possivel localizar a pagina.');
+                    document.getElementById('conteudo').innerHTML = 'A pagina não pode ser encontrada. ERRO 404!'
+                }
+            }
+            console.log(ajax)
+            ajax.send()
         }
     </script>
 </head>
@@ -48,23 +60,19 @@
     <div class="container">
 
         <div class="row mb-2">
-            <div class="col-md-4 center"></div>
-            <div class="col-md-4 center">
-                <a href="#" class="btn btn-primary" onclick="requisitarPagina('pagina_1_conteudo.html')">Página 1</a>
-                <a href="#" class="btn btn-primary" onclick="requisitarPagina('pagina_2_conteudo.html')">Página 2</a>
-                <a href="#" class="btn btn-primary" onclick="requisitarPagina('pagina_3_conteudo.html')">Página 3</a>
+            <div class="col-md-3 center"></div>
+            <div class="col-md-9 center">
+                <button class="btn btn-primary" onclick="requisitarPagina('pagina_5_conteudo.php')">Página 1</button>
+                <button class="btn btn-info" onclick="requisitarPagina('pagina_2_conteudo.php')">Página 2</button>
+                <button class="btn btn-info" onclick="requisitarPagina('pagina_3_conteudo.php')">Página 3</button>
             </div>
-            <div class="col-md-4 center"></div>
+            <div class="col-md-3 center"></div>
         </div>
 
         <div class="row">
             <div class="col-md-1"></div>
 
-            <div class="col-md-10">
-            <script>
-
-            </script>
-            </div>
+            <div class="col-md-10 mx-auto text-center" id="conteudo"></div>
 
             <div class="col-md-1"></div>
         </div>
