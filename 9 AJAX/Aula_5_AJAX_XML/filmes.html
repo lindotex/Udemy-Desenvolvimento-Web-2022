@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+    <!-- bootstrap - link cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script>
+        function getfilmes(){
+            let xmlHttp = new XMLHttpRequest();
+            xmlHttp.open('GET', 'http://localhost/Aula_5_AJAX_XML/filmes.xml');
+            xmlHttp.onreadystatechange = () =>{
+                if(xmlHttp.readyState == 4 && xmlHttp.status == 200){
+                    let XMLFilmes = xmlHttp.responseText
+                }
+
+                if()
+            }
+            xmlHttp.send(xmlHttp.readyState == 4 && xmlHttp.status == 404){
+                document.getElementById('conteudo').innerHTML = 'Página nao encontrada.'
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light mb-4">
+        <div class="container">
+            <div class="navbar-brand mb-0 h1">
+                <h3>Catálogo de Filmes</h3>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="conteudo">
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-danger" onclick="getFilmes()"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
