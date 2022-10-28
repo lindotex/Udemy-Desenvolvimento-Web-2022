@@ -234,7 +234,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/AJAX-3%20hours-inactive"/>
         <details>
     <summary>AJAX Program</summary>
     <br>
@@ -251,10 +251,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] XML Notation</li>
         <li> [X] JSON Notation</li>
         <li> [X] XML to JSON Refactoring</li>
+        <li> [X] APP Address Seach</li>
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>   <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/>
                 <details>
     <summary>PHP w/ PDO & MySQL Program</summary>
     <br>
@@ -264,7 +265,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [ ] Fetch</li>
         <li> [ ] Fetch All</li>
         <li> [ ] Foreach</li>
-      <li> [ ] SQL Injection</li>
+        <li> [ ] SQL Injection</li>
       </ul>
   </details>
   </li>
