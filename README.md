@@ -265,7 +265,8 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Fetch All</li>
         <li> [X] Foreach</li>
         <li> [X] SQL Injection</li>
-        <li> [ ] Prepare Statement</li>
+        <li> [X] Prepare Statement</li>
+        <li> [X] APP Lista de tarefas</li>
       </ul>
   </details>
   </li>
