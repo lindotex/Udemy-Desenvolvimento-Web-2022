@@ -5,7 +5,7 @@
 <a href="https://www.udemy.com/course/web-completo/"><img src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white" alt="course"/></a> Desenvolvimento Web Completo 2022 - 20 cursos + 20 projetos
 Authors: <a href="https://jamiltondamasceno.com.br/">Jamilton Damasceno</a> e <a href="https://jorgesantana.net.br/">Jorge Sant Ana</a>
 <br>
- <img src="https://img.shields.io/badge/-WORKING-yellow"/>
+<img src="https://img.shields.io/badge/-WORKING-yellow"/>
 
 <h1>Technologies that I've Learned</h1>
 <div>
@@ -30,7 +30,6 @@ Authors: <a href="https://jamiltondamasceno.com.br/">Jamilton Damasceno</a> e <a
   <img src="https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white" alt="ionic"/>
   <img src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white" alt="wordpress"/>
   <br><br><br><br>
-
 
   <img src="https://img.shields.io/badge/W3Schools-Documentation-brightgreen" alt="w3c"/>
 
@@ -260,10 +259,10 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <summary>PHP w/ PDO & MySQL Program</summary>
     <br>
     <ul>
-        <li> [ ] Database Connection </li>
-        <li> [ ] Executing SQL Instructions</li>
-        <li> [ ] Fetch</li>
-        <li> [ ] Fetch All</li>
+        <li> [X] Database Connection </li>
+        <li> [X] Executing SQL Instructions</li>
+        <li> [X] Fetch</li>
+        <li> [X] Fetch All</li>
         <li> [ ] Foreach</li>
         <li> [ ] SQL Injection</li>
       </ul>
