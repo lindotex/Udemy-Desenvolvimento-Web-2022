@@ -1,0 +1,19 @@
+# Aula 3: PDOStatement Object (Query) com fetchAll()
+
+[PHP] <-> PDOStatement (Query) <-> [PDO] <-> pdo_mysql
+
+
+----
+
+# Inserindo dados no Banco de dados (query):
+
+    $query = '
+            insert into tb_usuarios(
+            nome, email, senha
+            ) values (
+                "Jorge Sant Anna", "jm.teste@proton.com","123456"
+        )';
+
+        $conexao->exec($query);
+
+# Pesquisando dados no Banco de dados (query):
