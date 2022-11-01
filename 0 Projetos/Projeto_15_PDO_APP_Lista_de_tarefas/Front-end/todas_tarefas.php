@@ -2,10 +2,6 @@
 
 	$acao = 'recuperar';
 	require 'tarefa_controller.php';
-
-    // echo '<pre>';
-    // print_r($tarefas);
-    // echo '</pre>';
 ?>
 
 <html>
@@ -23,14 +19,14 @@
 
                 // form de edição
                 let form = document.createElement('form')
-                form.action = "#"
+                form.action = "tarefa_controller.php?acao=atualizar"
                 form.method = 'post'
                 form.className = 'row'
 
                 // entrada do texto
                 let inputTarefa = document.createElement('input')
                 inputTarefa.type = 'text'
-                inputTarefa.name = 'text'
+                inputTarefa.name = 'tarefa'
                 inputTarefa.className = 'col-8 form-control'
                 inputTarefa.value = txt_tarefa
 
@@ -62,6 +58,14 @@
                 // Inclusão do Form na Página
                 tarefa.insertBefore(form,tarefa[0])
 
+            }
+
+            function remover(id){
+                location.href = 'todas_tarefas.php?acao=remover&id='+id;
+            }
+
+            function marcarRealizada(id){
+                location.href = 'todas_tarefas.php?acao=marcarRealizada&id='+id;
             }
         </script>
 	</head>
@@ -98,12 +102,20 @@
                                 ?>
                                     <div class="row mb-3 d-flex align-items-center tarefa">
                                         <div class="col-sm-9" id="tarefa_<?= $tarefa->id ?>">
-                                            <strong><?= $tarefa->tarefa ?></strong> (<?= $tarefa->status ?>)
+                                            <?= $tarefa->tarefa ?>
+                                            <?php if($tarefa->status == 'pendente'){?>
+                                                <label class="text-danger">(<?= $tarefa->status ?>)</label>
+                                            <?php } else if($tarefa->status == 'realizado') {?>
+                                                    <label class="text-success">(<?= $tarefa->status ?>)</label>
+                                            <?php } ?>
                                         </div>
                                         <div class="col-sm-3 mt-2 d-flex justify-content-between">
-                                            <i class="fas fa-trash-alt fa-lg text-danger"></i>
-                                            <i class="fas fa-edit fa-lg text-info" onclick="editar(<?= $tarefa->id ?>, '<?= $tarefa->tarefa ?>')"></i>
-                                            <i class="fas fa-check-square fa-lg text-success"></i>
+                                            <i class="fas fa-trash-alt fa-lg text-danger" onclick="remover(<?= $tarefa->id ?>)"></i>
+
+                                            <?php if($tarefa->status == 'pendente') { ?>
+                                                <i class="fas fa-edit fa-lg text-info" onclick="editar(<?= $tarefa->id ?>, '<?= $tarefa->tarefa ?>')"></i>
+                                                <i class="fas fa-check-square fa-lg text-success" onclick="marcarRealizada(<?= $tarefa->id ?>)"></i>
+                                            <?php } ?>
                                         </div>
                                     </div>
                                 <?php

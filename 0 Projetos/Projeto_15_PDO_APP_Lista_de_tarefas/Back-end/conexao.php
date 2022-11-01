@@ -20,7 +20,7 @@ class Conexao {
 
 
 		} catch (PDOException $e) {
-			echo '<p>'.$e->getMessege().'</p>';
+			echo '<p>'.$e->getMessage().'</p>';
 		}
 	}
 }

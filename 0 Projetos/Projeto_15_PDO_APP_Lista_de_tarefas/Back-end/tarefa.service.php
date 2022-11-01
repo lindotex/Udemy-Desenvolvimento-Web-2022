@@ -32,12 +32,43 @@ class TarefaService {
 	}
 
 	public function atualizar() { //update
-
+        $query = "UPDATE tb_tarefas SET tarefa = ? where id = ?";
+        $stmt = $this->conexao->prepare($query);
+        $stmt->bindValue(1, $this->tarefa->__get('tarefa'));
+        $stmt->bindValue(2, $this->tarefa->__get('id')); // AGORA TA CERTO
+        return $stmt->execute();
 	}
 
 	public function remover() { //delete
-
+        $query = "DELETE FROM tb_tarefas WHERE id = :id";
+        $stmt = $this->conexao->prepare($query);
+        $stmt->bindValue(':id', $this->tarefa->__get('id'));
+        return $stmt->execute();
 	}
+
+    public function marcarRealizada() { //marcarRealizada
+        $query = "UPDATE tb_tarefas SET id_status = ? where id = ?";
+        $stmt = $this->conexao->prepare($query);
+        $stmt->bindValue(1, $this->tarefa->__get('id_status'));
+        $stmt->bindValue(2, $this->tarefa->__get('id')); // AGORA TA CERTO
+        return $stmt->execute();
+	}
+
+    public function recuperarTarefasPendentes() { //marcarRealizada
+        $query = '
+        SELECT
+            t.id, s.status, t.tarefa
+        FROM
+            tb_tarefas as t
+            LEFT JOIN tb_status as s on (t.id_status = s.id)
+        WHERE
+            t.id_status = :id_status
+        ';
+        $stmt = $this->conexao->prepare($query);
+        $stmt->bindValue(':id_status', $this->tarefa->__get('id_status'));
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_OBJ);
+    }
 }
 
 ?>
