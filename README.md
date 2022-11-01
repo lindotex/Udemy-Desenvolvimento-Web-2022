@@ -254,7 +254,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>   <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>   <img src="https://img.shields.io/badge/PHP%20w%2F%20PDO%20%26%20MySQL%204h-4%20hours-important"/>
                 <details>
     <summary>PHP w/ PDO & MySQL Program</summary>
     <br>
@@ -270,7 +270,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Deploy%20of%20Web%20Aplications%20on%20Internet%20-1%20hours-informational"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/Deploy%20of%20Web%20Aplications%20on%20Internet%20-1%20hours-informational"/>
     <details>
     <summary>Deploy Program</summary>
     <br>
