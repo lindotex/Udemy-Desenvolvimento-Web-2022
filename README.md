@@ -270,21 +270,22 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/Deploy%20of%20Web%20Aplications%20on%20Internet%20-1%20hours-informational"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/Deploy%20of%20Web%20Aplications%20on%20Internet%20-1%20hours-informational"/>
     <details>
     <summary>Deploy Program</summary>
     <br>
     <ul>
-        <li> [ ] DNS </li>
-        <li> [ ] Hosting</li>
-        <li> [ ] cPanel</li>
-        <li> [ ] FTP All</li>
-        <li> [ ] PHP Configuration</li>
-      <li> [ ] MySQL Configuration</li>
+        <li> [X] DNS </li>
+        <li> [X] Hosting</li>
+        <li> [X] InfinityFree Account</li>
+        <li> [X] cPanel</li>
+        <li> [X] FTP All</li>
+        <li> [X] PHP Configuration</li>
+        <li> [X] MySQL Configuration</li>
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/>
     <details>
     <summary>jQuery Program</summary>
     <br>
