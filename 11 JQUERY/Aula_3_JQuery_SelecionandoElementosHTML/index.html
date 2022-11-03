@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="./jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <h1 class="diversos2">Selecionando elementos parte 1</h1>
+    <div>Div 1</div>
+    <div class="diversos1">Div 2</div>
+
+    <ul id="menu1">
+        <li>Menu 1 - Item 1</li>
+        <li class="diversos1">Menu 1 - Item 2</li>
+        <li>Menu 1 - Item 3</li>
+    </ul>
+    <ul>
+        <li class="itemMenu2">Menu 2 - Item 1</li>
+        <li class="itemMenu2">Menu 2 - Item 2</li>
+        <li class="itemMenu2">Menu 2 - Item 3</li>
+    </ul>
+
+    <input type="text" name="" id="" placeholder="Campo 1">
+    <select name="" id="" class="diversos1">
+        <option value="">-- Selecione Uma opção -- </option>
+        <option value="">Opção 1</option>
+        <option value="">Opção 2</option>
+    </select>
+    <br/>
+    <img src="carro.jpg" alt="" class="diversos2" id="imagem"/>
+</body>
+    <script>
+        // Seleção por tags
+        console.log($('h1'))        // todos os h1
+        console.log($('div'))       // todos os div
+        console.log($('ul'))        // todos os ul
+        console.log($('li'))        // todos os li
+        console.log($('input'))     // todos os input
+        console.log($('select'))    // todos os select
+        console.log($('img'))       // todos os img
+
+        // Seleção por Classes
+        console.log($('.itemMenu2'))  // todos da classe itemMenu2
+        console.log($('.diversos1'))  // todos da classe diversos1
+        console.log($('.diversos2'))  // todos da classe diversos2
+
+        // Seleção por ID
+        console.log($('#menu1'))      // item da id menu1
+        console.log($('#imagem'))      // item da id imagem
+    </script>
+
+</html>
