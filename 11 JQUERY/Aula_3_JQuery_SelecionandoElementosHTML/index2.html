@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="./jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <input class="exemplo1" type="text" name="" id="" placeholder="input1">
+    <input type="text" name="" id="" placeholder="input2">
+    <input  classe="exemplo2"type="text" name="" id="" placeholder="input3">
+
+    <div class="lista1">
+        <div class="exemplo1">DIV 1</div>
+        <div class="exemplo2">DIV 2</div>
+        <div class="exemplo2">DIV 3</div>
+    </div>
+
+    <ul class="lista1">
+        <li class="exemplo1">Opção 1</li>
+        <li class="exemplo2">Opção 2</li>
+        <li class="exemplo2">Opção 3</li>
+    </ul>
+    <ul class="lista2">
+        <li class="exemplo2">Opção 1</li>
+        <li class="exemplo2">Opção 2</li>
+        <li>Opção 3</li>
+    </ul>
+</body>
+    <script>
+        // Combinação de seletores
+
+            // Selecionar por classe especifica:
+            console.log($('.exemplo1')) // Todos com a Classe
+            console.log($('div.exemplo1')) // DIV com a Classe
+
+            // Selecionar elementos por classe de classe específica (sub-classe):
+            console.log($('div.lista1 .exemplo2')) // Todos elementos div com classe .exemplo2 dentro de .lista1
+
+        // Atuação sobre o array de retorno dos elementos selecionados
+
+            console.log($('.lista1 .exemplo2'))  // O retorno do seletor do jQuery é sempre um array
+
+            // :first -> Recupera o primeiro indice do array
+            // :even -> Recupera os elementos com indices pares do array
+            // :odd -> Recupera os elementos com indices impares do array
+            // :last -> Recupera o ultimo indice do array
+
+            console.log($('.lista1 .exemplo2:first'))
+            console.log($('.lista1 .exemplo2:last'))
+            console.log($('.lista1 .exemplo2:even'))
+            console.log($('.lista1 .exemplo2:odd'))
+
+    </script>
+
+</html>
