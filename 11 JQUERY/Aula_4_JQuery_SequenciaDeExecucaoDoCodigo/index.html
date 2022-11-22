@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="./jquery-3.6.1.min.js"></script>
+</head>
+<body>
+
+    <!--
+        Sequencia é importante na execução!
+        O código é lido de forma vertical, de cima para baixo. Ou seja,
+        a variavel declarada (neste caso o ID "exemplo") deve estar 'declarada'
+        no corpo do html antes da chamada do jQuery!
+    -->
+
+    <!-- Desta forma, Funciona: -->
+    <h5 id="exemplo">Teste</h5>
+    <script>
+        console.log($('#exemplo'))
+    </script>
+
+    <!-- Desta forma, Não Funciona: -->
+    <script>
+        console.log($('#exemplo2'))
+    </script>
+
+    <h5 id="exemplo2">Teste 2</h5>
+
+
+    <!--
+        $(document).ready(function(){})
+        $(function(){})
+    -->
+
+    <!-- Forma de contornar a verticalidade do código: -->
+    <!-- SINTAXE COMPLETA-->
+
+    <script>
+        $(document).ready(function(){
+            function teste3() {
+                console.log($('#exemplo3'))
+            }
+            teste3()
+        })
+    </script>
+
+    <h5 id="exemplo3">Teste 3</h5>
+
+    <!-- Forma de contornar a verticalidade do código: -->
+    <!-- SINTAXE ENXUTA -->
+
+    <script>
+
+        function teste4() {
+            console.log($('#exemplo4'))
+        }
+
+        $(teste4)
+
+    </script>
+
+    <h5 id="exemplo4">Teste 4</h5>
+
+</body>
+</html>
