@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script>
+
+        // Selecionando elementos HTML do DOM (document)
+
+        $(document).ready(() => {
+            console.log($('div').attr('style'))
+        })
+
+        // Alterando elementos HTML do DOM (document)
+
+        $(document).ready(() => {
+            console.log($('div').attr('style', 'background-color: blue; width: 200px; height:200px'))
+        })
+
+    </script>
+</head>
+<body>
+
+    <img src="./img/esfera_1.png" alt="esfera1" border="5">
+
+    <div style="background-color: red; width: 100px; height:100px"></div>
+
+    <input type="text" value="Eu sou um input.">
+
+</body>
+</html>
