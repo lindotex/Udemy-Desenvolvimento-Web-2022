@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="./jquery-3.6.1.min.js"></script>
+
+</head>
+<body>
+
+    <p>Nome:</p>
+    <input type="text" name="nome" id="nome">
+    <br/>
+
+    <p>Onde voce nos encontrou?</p>
+    <select name="select" id="origem">
+        <option value="1">Google</option>
+        <option value="2">Facebook</option>
+        <option value="3">Radio</option>
+        <option value="4">Outros Meios</option>
+    </select>
+
+    <p>Sexo:</p>
+    <input type="radio" name="sexo" class="sexo" id="sexo" value="F">Feminino<br/>
+    <input type="radio" name="sexo" class="sexo" id="sexo" value="M">Masculino<br/>
+    <br/>
+
+        <script>
+
+            $('.sexo:checked')          // Recupera o elemento 'radio', da classe 'sexo', que esteja selecionada (checked).
+            $('.sexo:checked').val()    // Exibe o valor (value) do elemento.
+
+        </script>
+
+        <p>Interesses:</p>
+        <input type="checkbox" name="interesse" class="interesse" value="php">PHP<br/>
+        <input type="checkbox" name="interesse" class="interesse" value="js">JavaScrypt<br/>
+        <input type="checkbox" name="interesse" class="interesse" value="angular">Angular<br/>
+        <input type="checkbox" name="interesse" class="interesse" value="nodejs">NodeJS<br/>
+
+        <script>
+            $.each($('.interesse:checked'), (indice, valor) =>{
+                console.log(indice, valor)
+            })
+
+        </script>
+
+    </body>
+    </html>
