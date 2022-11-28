@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="../jquery-3.6.1.min.js"></script>
+
+    <script>
+
+        $(document).ready(()=>{
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <!--
+
+        Inserindo e removendo elementos HTML  =>
+
+            *html
+            *remove
+
+          .... 'before' = Antes da tag
+        <tag>
+            ... 'prepend' (no início)
+            ... 'append'  (no fim)
+        </tag>
+
+    -->
+
+
+    <!-- Adicionando um elemento antes dessa lista (no inicio): -->
+    <script>
+        $(document).ready( ()=>{
+            $('#lista1').before('<h1>Lista</h1>')
+        })
+    </script>
+
+    <ul id="lista1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <!-- Adicionando um elemento a essa lista (no final): -->
+        <script>
+            $(document).ready( ()=>{
+                $('#lista1').append('<li>Item 4</li>')
+            })
+        </script>
+    </ul>
+    <ul id="lista2">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+
+        <!-- Adicionando um elemento a essa lista (no início): -->
+        <script>
+            $(document).ready( ()=>{
+                $('#lista2').prepend('<div>Item Novo</div>')
+            })
+        </script>
+
+        <div id="remover">Item 4</div>
+        <!-- removendo um elemento a essa lista (no início): -->
+        <script>
+            $(document).ready( ()=>{
+                $('#remover').remove()
+            })
+        </script>
+
+    </ul>
+
+    <!-- Adicionando um elemento depois dessa lista (no final): -->
+    <script>
+        $(document).ready( ()=>{
+            $('#lista2').after('<h1>Fim da Lista</h1>')
+        })
+    </script>
+
+    <hr/>
+
+</body>
+</html>
