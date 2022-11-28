@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script>
+
+        // Selecionando elementos:
+
+        $(document).ready(()=>{
+            console.log('conteudo da div 1: ', $('#div1').html())
+            console.log('conteudo da div 2: ', $('#div2').html())
+        })
+
+        // Manipulando elementos:
+
+        $(document).ready(()=>{
+            console.log('conteudo da div 1: ', $('#div1').html('Eu sou o Novo Valor da Div1'))
+            console.log('conteudo da div 2: ', $('#div2').html('<strong>Tambem funciona ao colocar tags</strong>'))
+        })
+
+    </script>
+</head>
+<body>
+
+    <div id="div1" style="border: 1px solid black; width:150px; height:150px">
+        <a href="#">teste</a>
+        <p>Essse é outro teste.</p>
+        Texto qualquer
+        <div>Outra div</div>
+    </div>
+    <div id="div2" style="border: 1px solid black; width:150px; height:150px">
+        Div2
+    </div>
+
+</body>
+</html>
