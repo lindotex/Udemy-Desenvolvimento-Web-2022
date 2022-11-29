@@ -292,7 +292,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <ul>
         <li> [X] Adding jQuery to project </li>
         <li> [X] Selecting and Manipulating HTML Elements </li>
-        <li> [ ] Navigation Through Elements</li>
+        <li> [X] Navigation Through Elements</li>
         <li> [ ] CSS Manipulation</li>
         <li> [ ] Keyboard Events</li>
         <li> [ ] Mouse Events</li>

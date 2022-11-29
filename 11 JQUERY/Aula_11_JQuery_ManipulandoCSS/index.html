@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="../jquery-3.6.1.min.js"></script>
+
+    <script>
+
+        /*
+        OBJETIVO DA AULA:
+        Manipulação de elementos CSS com jQuery.
+
+        css('parametro', 'valor')   ->  Adiciona propriedades de estilo inline
+        addClass('nomeDaClasse')    ->  Adiciona classes
+        hasClass('nomeDaClasse')    ->  Verifica a existência de uma classe no elemento
+        removeClass('nomeDaClasse') ->  Remove uma classe
+        */
+
+        // Arrow Function padrão para manipulação com jQuery:
+        $(document).ready(()=>{
+
+        })
+
+    </script>
+    <style>
+        .campo {
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .padrao {
+            background-color: #ddd;
+        }
+        .erro {
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="topo">
+        <h1>Barra de navegação da aplicação</h1>
+        <script>
+            // Manipulação de CSS com jQuery.
+            // Primeira forma (inclusão inline):
+            $('#topo').css('background-color','#155661').css('margin','0px').css('padding','10px 20px 10px 20px')
+
+            // Segunda forma (objeto literal):
+            $('#topo').css({'background':'#155661', 'margin':'0px', 'padding': '10px 20px 10px 20px'})
+        </script>
+        <script>
+            //Alterando o H1 com jQuery
+            $('h1').css({'color':'#fff', 'margin':'0px'})
+        </script>
+    </div>
+
+    <div>
+        <h3>Contato</h3>
+        <hr />
+
+        <p>Nome:</p>
+        <input type="text" />
+        <br />
+
+        <p>Email:</p>
+        <input type="text" />
+        <br />
+
+        <p>Mensagem:</p>
+        <textarea></textarea>
+        <br />
+
+        <button type="button">Enviar</button>
+
+        <script>
+            // Inserindo classes
+            $('input').addClass('campo padrao')
+            $('textarea').addClass('campo erro')
+
+            // Verificando a classe dos elementos
+            $('textarea').hasClass('padrao')    // resultado será 'false'
+            $('textarea').hasClass('campo')    // resultado será 'true'
+
+            // Removendo classes
+            $('textarea').removeClass('erro').addClass('padrao') // removerá a classe 'erro' e adicionando 'padrão'
+        </script>
+
+
+    </div>
+
+</body>
+</html>
