@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="../jquery-3.6.1.min.js"></script>
+
+    <script>
+
+        // Navegando entre elementos HTML:
+        /*
+            parent()    -> elemento pai
+            closest()   -> procura por elementos pais
+            find()      -> procura por elementos filhos
+        */
+
+        $(document).ready(()=>{
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <div id="topo">
+        <ul class="menu">
+            <li class="item"></li>
+            <script>
+                $('.item').closest('#topo')         // seleciona o componente pai mais próximo com o id "topo".
+                $('.item').closest('ul')            // seleciona o elemento "ul" mais próximo ao componente com classe "item".
+                $('#topo').find('.item')            // seleciona todos os elementos da classe "item" contidos no elemento com id "topo".
+            </script>
+            <li class="item"></li>
+        </ul>
+    </div>
+
+    <div id="pagina">
+        <div class="secao1">
+            <script>
+                $('.subSecao').closest('#pagina')   // seleciona o componente pai mais próximo com id "pagina".
+                $('.subSecao').closest('.secao1')   // seleciona o componente pai mais próximo com classe "secao1".
+            </script>
+            <div class="subSecao"></div>
+            <script>
+                $('.secao1').parent()               // Seleciona o componente pai, no caso, a div "pagina"
+            </script>
+        </div>
+
+        <div class="secao2">
+            <h1></h1>
+            <script>
+                $('.secao1').parent().find('h1')    // Seleciona o elemento 'h1' na classe 'secao2' a partir da 'secao1', subindo para o elemento pai e depois percorrendo todos os elementos, com o find() até o 'h1'
+            </script>
+        </div>
+
+    </div>
+
+    <div id="rodape">
+        <div>
+            <p></p>
+            <span id="opcao1"></span>
+        </div>
+        <script>
+            $('#rodape').find('p')                  // Seleciona os elementos do tipo "paragrafo" que esteja, contidos no elemento "#rodape".
+
+        </script>
+    </div>
+
+</body>
+</html>
