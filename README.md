@@ -295,8 +295,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Navigation Through Elements</li>
         <li> [X] CSS Manipulation</li>
         <li> [X] Introduction about Events</li>
-        <li> [ ] Keyboard Events</li>
+        <li> [X] Browser Events</li>
         <li> [ ] Mouse Events</li>
+        <li> [ ] Keyboard Events</li>
         <li> [ ] Forms Events</li>
         <li> [ ] Animations</li>
         <li> [ ] AJAX</li>

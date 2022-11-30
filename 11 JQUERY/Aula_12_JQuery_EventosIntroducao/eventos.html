@@ -5,26 +5,57 @@
 		<title>jQuery</title>
 
 		<style>
-			
+
 		</style>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script>
+			$(document).ready(()=>{
 
+				// Evento : Carregamento da página
+				$('#onload').html('Pagina Carregada')
+
+				// Evento: Rolagem do Scroll
+				$(window).scroll(()=>{
+					$('#scroll').html('Scroll Acionado')
+				})
+
+				// Evento: Resize da janela
+				$(window).resize( () => {
+					$('#resize').html('Página Redimensionada').css('background-color','red')
+				})
+
+				// Manipulando uma DIV:
+				// Function != Arrow Function
+
+				// // Como Function:
+				$('#div1').scroll(function() {
+					$(this).css('background-color','blue')
+				})
+				// Como Arrow Function (Função de Callback):
+				$('#div1').scroll(e => { // e de 'evento', mas pode colocar o nome que quiser.
+					$(e.target).css('background-color','blue')
+				})
+
+
+			})
 		</script>
 	</head>
 
 	<body>
-		
+
 		<div id="topo">
 			<h1>Eventos</h1>
 		</div>
 
 		<div>
 			<h3>Browser</h3>
-			<span>Onload: </span><span>?</span><br />
-			<span>Scroll: </span><span>?</span><br />
-			<span>Window: </span><span>?</span>
+			<span>Onload: </span><span id="onload">?</span><br />
+			<span>Scroll: </span><span id="scroll">?</span><br />
+			<span>Resize Window: </span><span id="resize">?</span>
+			<div id="div1" style="height: 100px; width: 100px; border: 1px solid; overflow-y: scroll">
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div>
 			<hr />
 
 			<h3>Mouse</h3>
@@ -54,7 +85,7 @@
 					<option value="duvida">Dúvida</option>
 					<option value="sugestao">Sugestão</option>
 				</select>
-				
+
 				<button type="button">Enviar</button>
 			</form>
 		</div>
