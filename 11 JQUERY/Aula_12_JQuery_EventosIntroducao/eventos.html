@@ -5,7 +5,18 @@
 		<title>jQuery</title>
 
 		<style>
+            #divExterna {
+                background-color: #ccc;
+                width: 80px;
+                height: 80px;
+                padding: 70px;
+            }
 
+            #divInterna{
+                background-color: blue;
+                width: 80px;
+                height: 80px;
+            }
 		</style>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -37,6 +48,81 @@
 					$(e.target).css('background-color','blue')
 				})
 
+                // Eventos com o Mouse!
+
+                // btn1 : eventos mousedown e mouseup
+                $('#btn1').mousedown(()=>{
+                    $('#div2').css('background-color','green')
+                })
+
+                $('#btn1').mouseup(()=>{
+                    $('#div2').css('background-color','blue')
+                })
+
+                // btn2 : eventos click e dbclick
+                $('#btn2').click(()=>{
+                    $('#div2').css('background-color','yellow')
+                })
+
+                $('#btn2').dblclick(()=>{
+                    $('#div2').css('background-color','black')
+                })
+
+                // btn3 : evento clear
+                $('#btn3').click(()=>{
+                    $('#div2').css('background-color','red')
+                })
+
+                // Evento : Mouse Move
+                $('#div2').mousemove((e)=>{
+                    $('#resultadoDiv').html('X: ' + e.offsetX + ' / Y: ' + e.offsetY)
+                })
+
+                // MOUSE OVER E MOUSE OUT
+                // ANTIGOS E DEVEM SER EVITADOS PELO RISCO DE EFEITO BUBBLE.
+
+                // Evento : Mouse Over e Mouse Out na div Externa
+                // $('#divExterna').mouseover((e)=>{
+                //     $('#resultadoDiv1').html('Entrou')
+                //     console.log('Div Externa Entrou')
+                // })
+                // $('#divExterna').mouseout((e)=>{
+                //     $('#resultadoDiv1').html('Saiu')
+                //     console.log('Div Externa Saiu')
+                // })
+                // // Evento : Mouse Over e Mouse Out na div Interna
+                // $('#divInterna').mouseover((e)=>{
+                //     $('#resultadoDiv2').html('Entrou')
+                //     console.log('Div Interna Entrou')
+                // })
+                // $('#divInterna').mouseout((e)=>{
+                //     $('#resultadoDiv2').html('Saiu')
+                //     console.log('Div Interna Saiu')
+                // })
+
+                // MOUSE ENTER E MOUSE LEAVE
+                // RECENTES E VIERAM PARA SANAR OS PROBLEMAS COM EFEITO BUBBLE
+
+
+                // Evento : Mouse Enter e Mouse Leave na div Externa
+                $('#divExterna').mouseenter((e)=>{
+                    $('#resultadoDiv1').html('Entrou')
+                    console.log('Div Externa (Entrou)')
+                })
+                $('#divExterna').mouseleave((e)=>{
+                    $('#resultadoDiv1').html('Saiu')
+                    console.log('Div Externa (saiu)')
+                })
+                $('#divInterna').mouseenter((e)=>{
+                    $('#resultadoDiv2').html('Entrou')
+                    console.log('Div Interna (Entrou)')
+                })
+                $('#divInterna').mouseleave((e)=>{
+                    $('#resultadoDiv2').html('Saiu')
+                    console.log('Div Interna (saiu)')
+                })
+
+
 
 			})
 		</script>
@@ -59,10 +145,18 @@
 			<hr />
 
 			<h3>Mouse</h3>
-			<button type="button">Clique aqui</button>
-			<button type="button">Clique aqui 2x</button>
-			<div style="background-color: red; width: 80px; height: 50px; margin-top: 10px; margin-bottom: 10px"></div>
-			<span>Resultado do evento sobre a div</span>
+			<button id="btn1" type="button">Clique aqui</button>
+			<button id="btn2" type="button">Clique aqui 2x</button>
+			<button id="btn3" type="button">Reset</button>
+			<div id="div2" style="background-color: red; width: 80px; height: 50px; margin-top: 10px; margin-bottom: 10px"></div>
+			<span>Resultado do evento sobre a div: </span><span id="resultadoDiv">X: 00 / Y: 00</span>
+
+            <div id="divExterna">
+                <div id="divInterna"></div>
+            </div>
+            <span>Div Externa:</span><span id="resultadoDiv1"></span>
+            <br>
+            <span>Div Interna:</span><span id="resultadoDiv2"></span>
 			<hr />
 
 			<h3>Teclado</h3>
