@@ -122,8 +122,24 @@
                     console.log('Div Interna (saiu)')
                 })
 
+                // Eventos com o Teclado!
 
+                // Métodos Keydown e Keyup
+                $('#teclado').keydown(() => {
+                    $('#resultadoTecla').html('Tecla Pressionada')
+                    console.log('Tecla Pressionada')
+                })
+                $('#teclado').keyup((e) => {
+                    $('#resultadoTecla').html('Tecla Liberada')
+                    console.log('Tecla Libeada')
+                    console.log(e.keyCode)
 
+                    if(e.keyCode == 13) {               // Ao apertar o enter
+                        let txt = $(e.target).val()     // txt = valor que estiver no input
+                        $('#resultadoTecla').html(txt)  // O que estiver no input será impresso no span
+                        $(e.target).val('')             // Limpar o campo do input
+                    }
+                })
 			})
 		</script>
 	</head>
@@ -135,6 +151,8 @@
 		</div>
 
 		<div>
+
+            <!-- Janela ou BROWSER -->
 			<h3>Browser</h3>
 			<span>Onload: </span><span id="onload">?</span><br />
 			<span>Scroll: </span><span id="scroll">?</span><br />
@@ -144,6 +162,7 @@
 			</div>
 			<hr />
 
+            <!-- MOUSE -->
 			<h3>Mouse</h3>
 			<button id="btn1" type="button">Clique aqui</button>
 			<button id="btn2" type="button">Clique aqui 2x</button>
@@ -159,12 +178,14 @@
             <span>Div Interna:</span><span id="resultadoDiv2"></span>
 			<hr />
 
+            <!-- TECLADO -->
 			<h3>Teclado</h3>
 			<span>Nome:</span>
-			<input type="text" />
-			<span>Resultado do evento sobre o input</span>
+			<input type="text" id="teclado"/>
+			<span id="resultadoTecla">Resultado do evento sobre o input</span>
 			<hr />
 
+            <!-- FORMULÁRIO -->
 			<h3>Formulário</h3>
 			<form>
 				<span>Nome:</span>
