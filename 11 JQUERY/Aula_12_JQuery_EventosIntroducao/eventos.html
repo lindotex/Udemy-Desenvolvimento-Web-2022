@@ -149,25 +149,16 @@
                 // Método focus()
                 // Captura o evento da seleção/foco em um parametro html (input, div,...)
 
-                $('#nome').focus((e) => {
+                $('#nome, #email').focus((e) => {
                     console.log('Este elemento html recebeu "foco" (nome).')    // Evento de focagem
                     $(e.target).addClass('inputFocado')
                 })
-                $('#email').focus((e) => {
-                    console.log('Este elemento html recebeu "foco" (email).')   // Evento de focagem
-                    $(e.target).addClass('inputFocado')
-                })
-
 
                 // Método blur()
                 // Captura o evento da desseleção/desfocagem em um parametro html (input, div,...)
 
-                $('#nome').blur((e) => {
+                $('#nome, #email').blur((e) => {
                     console.log('Este elemento html perdeu "foco" (nome).')    // Evento de focagem
-                    $(e.target).removeClass('inputFocado')
-                })
-                $('#email').blur((e) => {
-                    console.log('Este elemento html perdeu "foco" (email).')   // Evento de focagem
                     $(e.target).removeClass('inputFocado')
                 })
 
