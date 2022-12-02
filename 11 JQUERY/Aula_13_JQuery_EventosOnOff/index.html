@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="../jquery-3.6.1.min.js"></script>
+
+    <style>
+        .desfocado{
+            background-color: aliceblue;
+        }
+        .focado{
+            background-color: green;
+        }
+    </style>
+    <script>
+
+        $(document).ready(()=>{
+
+            // EVENTO ON
+            // body -> elemento pai
+            // focus -> evento de seleção
+            // input -> elemento que ira receber o evento
+            $('body').on('focus','input',(e) => {
+                $(e.target).removeClass('desfocado')
+                $(e.target).addClass('focado')
+            })
+            $('body').on('blur','input',(e) => {
+                $(e.target).removeClass('focado')
+                $(e.target).addClass('desfocado')
+            })
+
+            // Criando um input de forma dinamica para testar o evento.
+            $('body').append('<br/><br/><input type="text" class="desfocado">')
+
+            // EVENTO OFF
+            // Desliga os eventos acionados (ON)
+            $('body').off('blur','input')
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <input type="text" class="desfocado">
+
+</body>
+</html>
