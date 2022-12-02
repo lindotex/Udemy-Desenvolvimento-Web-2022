@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="../jquery-3.6.1.min.js"></script>
+
+    <style>
+        #div1 {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #000;
+        }
+
+        #div2 {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #000;
+        }
+
+        .emDestaque{
+            background-color: red;
+        }
+
+    </style>
+    <script>
+
+        $(document).ready(()=>{
+
+            // FUNÇÃO TRIGGER
+            $('#btn2').on('click', () => {
+                alert('BTN 2 Clicado')
+            })
+
+            $('#btn1').on('click', () => {
+                $('#btn2').trigger('click')     // trigger: Aciona o evento 'click' disparado pelo #btn2
+            })
+
+
+            // FUNÇÃO HOVER
+
+            // Possivel Função (sem hover):
+            // $('#div1').on('mouseenter', (e)=>{
+            //     $(e.target).addClass('emDestaque')
+            // })
+            // $('#div1').on('mouseleave', (e)=>{
+            //     $(e.target).removeClass('emDestaque')
+            // })
+
+            // Substituindo pelo hover('func1', 'func2')
+            // hover( ()=>{} , ()=>{})
+
+            // $('#div1').hover(
+            //     e => $(e.target).addClass('emDestaque'),        // hover on : Sobre a div
+            //     e => $(e.target).removeClass('emDestaque')      // hover off : Fora da div
+            // )
+
+            // HOVER + TOGGLECLASS:
+            $('#div1').hover(                                   // hover on : Sobre a div, Off : fora da div
+                e => $(e.target).toggleClass('emDestaque'),     // ToggleClass: insere e remove a classe
+            )
+
+            // FUNÇÃO TOGGLECLASS
+
+            $('#btn3').on('click', () => {
+                $('#div2').toggleClass('emDestaque')
+            })
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <button id="btn1" type="button">BTN 1</button>
+    <button id="btn2" type="button">BTN 2</button>
+
+    <hr/>
+    <div id="div1"></div>
+
+    <hr/>
+    <div id="div2"></div>
+    <br/>
+    <button id="btn3" type="button">Toggle Class</button>
+
+</body>
+</html>
