@@ -17,6 +17,10 @@
                 width: 80px;
                 height: 80px;
             }
+
+            .inputFocado{
+                background-color: red;
+            }
 		</style>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -140,6 +144,55 @@
                         $(e.target).val('')             // Limpar o campo do input
                     }
                 })
+
+                // EVENTOS COM FORMULÁRIOS
+                // Método focus()
+                // Captura o evento da seleção/foco em um parametro html (input, div,...)
+
+                $('#nome').focus((e) => {
+                    console.log('Este elemento html recebeu "foco" (nome).')    // Evento de focagem
+                    $(e.target).addClass('inputFocado')
+                })
+                $('#email').focus((e) => {
+                    console.log('Este elemento html recebeu "foco" (email).')   // Evento de focagem
+                    $(e.target).addClass('inputFocado')
+                })
+
+
+                // Método blur()
+                // Captura o evento da desseleção/desfocagem em um parametro html (input, div,...)
+
+                $('#nome').blur((e) => {
+                    console.log('Este elemento html perdeu "foco" (nome).')    // Evento de focagem
+                    $(e.target).removeClass('inputFocado')
+                })
+                $('#email').blur((e) => {
+                    console.log('Este elemento html perdeu "foco" (email).')   // Evento de focagem
+                    $(e.target).removeClass('inputFocado')
+                })
+
+                // Método Change
+                // Captura o evento de modificação de um determinado componente (um select no exemplo abaixo)
+
+                $('#opcao').change((e)=>{
+                    console.log('Opção foi modificada: ' + $(e.target).val())
+                    // OBS: O valor capturado no "$(e.target).val()" é referente ao valor declarado no "value=''" do 'option' do select atribuido.
+                    // então, lembre-se de SEMPRE atribuir um "value" ao 'option' do 'select'.
+                })
+
+                // Método submit
+                // Captura o evento de envio de um formulário
+
+                $('#form').submit((e)=>{
+                    e.preventDefault()                      // PREVINE A ATUALIZAÇÂO DA PAGINA!!! MUITO UTILIZADO!
+                    console.log('formulário enviado.')
+
+                })
+
+                // PREVENT DEFALT PODE SER UTILIZADO PARA LINKS TAMBÈM:
+                $('a').click(e => {         // Link para o Site do Google
+                    e.preventDefault()      // preventDefault() irá impedir o carregamento do link.
+                })
 			})
 		</script>
 	</head>
@@ -187,21 +240,23 @@
 
             <!-- FORMULÁRIO -->
 			<h3>Formulário</h3>
-			<form>
+			<form id="form">
 				<span>Nome:</span>
-				<input type="text" />
+				<input type="text" id="nome"/>
 
 				<span>E-mail:</span>
-				<input type="text" />
+				<input type="text" id="email"/>
 
 				<span>Motivo do contato:</span>
-				<select>
+				<select id="opcao">
 					<option value="">-- Selecione --</option>
 					<option value="duvida">Dúvida</option>
 					<option value="sugestao">Sugestão</option>
 				</select>
 
-				<button type="button">Enviar</button>
+				<button type="submit">Enviar</button>
+                <br>
+                <a href="http://www.google.com">Google</a>
 			</form>
 		</div>
 	</body>
