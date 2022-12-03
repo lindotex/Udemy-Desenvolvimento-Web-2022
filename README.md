@@ -300,6 +300,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Keyboard Events</li>
         <li> [X] Forms Events</li>
         <li> [X] Other Events</li>
+        <li> [X] Special Effects (show(), hide(), fadeOut(), fadeIn(), slideUp(),...)</li>
         <li> [ ] Animations</li>
         <li> [ ] AJAX</li>
       </ul>

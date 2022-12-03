@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="../jquery-3.6.1.min.js"></script>
+
+    <style>
+        button {
+				margin-bottom: 5px;
+				width: 100px;
+			}
+
+			.div {
+				width: 100px;
+				height: 100px;
+                border: 1px solid #000;
+                border-radius: 10px;
+			}
+			.div1 {
+				background-color: red;
+                text-align: center;
+			}
+
+			.div2 {
+				background-color: green;
+                text-align: center;
+			}
+
+			.div3 {
+				background-color: blue;
+                text-align: center;
+			}
+
+			.grupo {
+				padding: 25px;
+				float: left
+			}
+    </style>
+    <script>
+
+        $(document).ready(()=>{
+
+            // METODOS HIDE, SHOW e TOGGLE:
+
+            $('#div1').hide()       //  Esconde o elemento DIV1
+            $('#div1').show()       //  Exibe o elemento DIV 1
+
+            // OBSERVAÇÃO O HIDE NÃO 'EXCLUI' a DIV, ela continua no DOM, só que não é exibida!
+
+            // É possivel passar um parâmetro para os métodos hide() e Show().
+            // Parametros possiveis:
+            // hide/show('slow'), hide/show('medio'), hide/show('fast')
+            // ou utilizando a notação numérica em milisegundos:
+            // hide(2000) => será 'escondido' o elemento e levará 2000ms para desaparecer.
+
+            // Metodo Toggle
+            $('#btn1').on('click', ()=>{
+                $('#div1').toggle(1000)       //  alterna entre Esconder e exibir o elemento DIV1
+            })
+
+
+            // METODOS FADEOUT, FADEIN, FADETOGGLE, FADETO:
+
+            // $('#div2').fadeOut()       //  Esconde o elemento DIV2
+            // $('#div2').fadeIn()       //  Esconde o elemento DIV2
+
+            // $('#btn2').on('click', ()=>{
+            //     $('#div2').fadeToggle(1000)       //  Alterna o elemento DIV2
+            // })
+
+            // FadeTo => Ajusta a opacidade do elemento ( de 0 a 1 )
+            // Possui dois parametros => fadeTo(tempo em ms, opacidade)
+
+            $('#btn2').on('click', ()=>{
+                $('#div2').fadeTo(2000, 0.5)       //  Alterna a opacidade do elemento DIV2
+            })
+
+            // METODOS SLIDEUP, SLIDEDOWN E SLIDETOGGLE
+
+            // $('#div3').slideUp()
+            // $('#div3').slidedown()
+
+            $('#btn3').on('click', ()=>{
+                $('#div3').slideToggle()       //  Alterna o elemento DIV3
+            })
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <div class="grupo">
+        <button type="button" id="btn1">DIV 1</button>
+        <div id="div1" class="div div1">toggle</div>
+    </div>
+
+    <div class="grupo">
+        <button type="button" id="btn2">DIV 2</button>
+        <div id="div2" class="div div2">fadeToggle</div>
+    </div>
+
+    <div class="grupo">
+        <button type="button" id="btn3">DIV 3</button>
+        <div id="div3" class="div div3">slideToggle</div>
+    </div>
+
+</body>
+</html>
