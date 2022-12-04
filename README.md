@@ -285,7 +285,8 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>
+   <img src="https://img.shields.io/badge/jQuery-6%20hours-informational"/>
     <details>
     <summary>jQuery Program</summary>
     <br>
@@ -302,11 +303,12 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Other Events</li>
         <li> [X] Special Effects (show(), hide(), fadeOut(), fadeIn(), slideUp(),...)</li>
         <li> [X] Animations</li>
-        <li> [ ] AJAX</li>
+        <li> [X] AJAX</li>
+        <li> [X] Serialize</li>
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>   <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/>
     <details>
     <summary>PHP MCV Program</summary>
     <br>
