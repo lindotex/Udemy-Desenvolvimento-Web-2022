@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- jQuery para o Site -->
+    <script src="../jquery-3.6.1.min.js"></script>
+
+    <style>
+        .div{
+            width: 80px;
+            height: 80px;
+            border: 1px solid #000;
+            margin: 10px;
+            background-color: #aaa;
+        }
+    </style>
+    <script>
+
+        $(document).ready(()=>{
+
+            $('button').on('click', ()=>{
+                let visualFinal = {
+                    'width':'160px',
+                    'height': '160px',
+                    'margin-left':'200px',
+                    'margin-top': '200px',
+                    'border-radius':'25px'
+                }
+
+                $('#div1').animate(visualFinal,{
+                    duration: 3500,         //  1500ms
+                    start: () => {
+                        console.log('Animação Iniciada.')
+                    },
+                    complete: () => {
+                        $('#div2').animate(visualFinal, 3000)
+                    }
+                })
+            })
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <button type="button" >Iniciar Animação</button>
+    <div class="div" id="div1"></div>
+    <div class="div" id="div2"></div>
+
+</body>
+</html>
