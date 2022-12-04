@@ -313,6 +313,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <summary>PHP MCV Program</summary>
     <br>
     <ul>
+        <li> [X] Architectural Patterns and Design Patterns </li>
         <li> [ ] Composer </li>
         <li> [ ] Controllers </li>
         <li> [ ] Routers</li>
