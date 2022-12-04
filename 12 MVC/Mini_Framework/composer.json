@@ -1,0 +1,5 @@
+{
+    "require":{"php":">=7.0"},
+    "authors": [{"name":"Alisson Lindote","email": "lindoten@proton.me"}],
+    "autoload": {"psr-4": {"App\\":"App/","MF\\":"vendor/MF/"}}
+}

@@ -314,7 +314,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [X] Architectural Patterns and Design Patterns </li>
-        <li> [ ] Composer </li>
+        <li> [X] Composer </li>
         <li> [ ] Controllers </li>
         <li> [ ] Routers</li>
         <li> [ ] Layout Models</li>
