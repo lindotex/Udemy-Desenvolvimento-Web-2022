@@ -69,22 +69,22 @@
         }
 
         public function getNumeroVendas(){
-            $query = 'select count(*) as numero_vendas from tb_vendas where data_venda between :data_inicio and :data_fim';
+            $query = 'select count(*) as numero_vendas from tb_vendas where data_venda between :dataInicio and :dataFim';
 
             $stmt = $this->conexao->prepare($query);
-            $stmt->bindValue(':data_inicio', $this->dashboard->__get('data_inicio'));
-            $stmt->bindValue(':data_fim', $this->dashboard->__get('data_fim'));
+            $stmt->bindValue(':dataInicio', $this->dashboard->__get('dataInicio'));
+            $stmt->bindValue(':dataFim', $this->dashboard->__get('dataFim'));
             $stmt->execute();
 
             return $stmt->fetch(PDO::FETCH_OBJ)->numero_vendas;
         }
 
         public function getTotalVendas(){
-            $query = 'select sum(total) as total_vendas from tb_vendas where data_venda between :data_inicio and :data_fim';
+            $query = 'select sum(total) as total_vendas from tb_vendas where data_venda between :dataInicio and :dataFim';
 
             $stmt = $this->conexao->prepare($query);
-            $stmt->bindValue(':data_inicio', $this->dashboard->__get('data_inicio'));
-            $stmt->bindValue(':data_fim', $this->dashboard->__get('data_fim'));
+            $stmt->bindValue(':dataInicio', $this->dashboard->__get('dataInicio'));
+            $stmt->bindValue(':dataFim', $this->dashboard->__get('dataFim'));
             $stmt->execute();
 
             return $stmt->fetch(PDO::FETCH_OBJ)->total_vendas;
@@ -97,14 +97,18 @@
     //Instanciando as classes:
     $dashboard = new Dashboard();
     $conexao = new Conexao();
+    $competencia = explode('-', $_GET['competencia']);
+    $ano = $competencia[0];
+    $mes = $competencia[1];
 
+    $dias_do_mes = cal_days_in_month(CAL_GREGORIAN,$mes,$ano);
 
     // Inserindo valores
-    $dashboard->__set('data_inicio', '2018-08-01');
-    $dashboard->__set('data_fim', '2018-08-31');
+    $dashboard->__set('dataInicio', $ano . '-'.$mes.'-01');
+    $dashboard->__set('dataFim', $ano . '-'.$mes.'-'.$dias_do_mes);
     $bd = new Bd($conexao, $dashboard);
 
     $dashboard->__set('numeroVendas', $bd->getNumeroVendas());
     $dashboard->__set('totalVendas', $bd->getTotalVendas());
-    print_r($dashboard);
+    echo json_encode($dashboard);
 ?>

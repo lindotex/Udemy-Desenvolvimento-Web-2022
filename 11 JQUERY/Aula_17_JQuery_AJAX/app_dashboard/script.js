@@ -32,4 +32,28 @@ $(document).ready(() => {
             $('#pagina').html(data)
         });
     })
+
+    // Método AJAX
+
+    $('#competencia').on('change', e =>{
+
+        let competencia = $(e.target).val();
+        // console.log(competencia);
+
+        // $.ajax({}) => Espera um objeto literal
+        $.ajax({
+            // método da requisição (GET ou POST), url, dados (VALORES), sucesso (se der certo), falha (se der errado)
+            type: 'GET',
+            url:'app.php',
+            dataType: 'json',
+            data: `competencia=${competencia}`, // formato do 'data' => x-www-form-encoded
+            success: dados => {
+                $('#numeroVendas').html(dados.numeroVendas)
+                $('#totalVendas').html(dados.totalVendas)
+                // console.log(dados)
+
+            },
+            error: erro => {console.log(erro)},
+        })
+    })
 })
