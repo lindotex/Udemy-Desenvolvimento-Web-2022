@@ -319,9 +319,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Controllers </li>
         <li> [X] Views </li>
         <li> [X] Layout Models</li>
-        <li> [ ] Vision</li>
-        <li> [ ] Reusing Layouts</li>
-        <li> [ ] Database Connection</li>
+        <li> [X] Vision</li>
+        <li> [X] Reusing Layouts</li>
+        <li> [X] Database Connection (PDO)</li>
       </ul>
   </details>
   </li>

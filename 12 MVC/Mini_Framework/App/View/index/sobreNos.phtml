@@ -1,9 +1,9 @@
 <h1>Sobre Nós<h1/>
 <hr/>
 
-<?php
-    echo 'chegamos ao sobreNos controler e disparamos a action sobreNos';
-    foreach($this->$view->$dados as $indice => $valor)  {
-        echo $valor.'<br/>';
-    }
-?>
+<?php foreach($this->$view->$dados as $indice => $valor)  { ?>
+
+    <h1><?= $info['titulo']?></h1>
+    <p><?=$info['descricao']?></p>
+    <br/>
+<?php } ?>
