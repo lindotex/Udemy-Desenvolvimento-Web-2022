@@ -3,17 +3,28 @@
     namespace App\Controllers;
 
     use MF\Controller\Action;
+    use App\Connection;
+    use App\Models\Produto;
 
     class indexController extends Action {
 
         public function index() {
-            $this->$view->$dados = array('Sofá', 'Cadeira', 'Cama');  // para Simular um dado vindo do Model
+
+            // Instancia de conexão com BD
+                $conn = Connection:getDb();
+            // Instancia de Modelo
+                $produto = new Produto($conn);
+
+                $produto = $produto->getProdutos();
+
+                $this->$view->$dados = $produtos;
+
             $this->render('index','layout1');
         }
 
         public function sobreNos(){
-            $this->$view->$dados = array('Notebook', 'Smartphone');   // para Simular um dado vindo do Model
-            $this->render('sobreNos','layout2');
+
+            $this->render('sobreNos','layout1');
         }
     }
 
