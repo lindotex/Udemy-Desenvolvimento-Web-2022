@@ -308,7 +308,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>   <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/>
+  <li> [X]    <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/MVC%20w%2F%20PHP-6%20hours-blueviolet"/>
     <details>
     <summary>PHP MCV Program</summary>
     <br>
@@ -325,7 +325,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/>
     <details>
     <summary>Twitter Clone Project Program</summary>
     <br>

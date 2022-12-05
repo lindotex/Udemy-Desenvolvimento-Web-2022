@@ -1,14 +1,7 @@
 <?php
-
     namespace App\Models;
-
-    class Info {
-        protected $db;
-
-        public function __constructor(\PDO $db) {
-            $this->db = $db;
-        }
-
+    use MF\Model\Model;
+    class Info extends Model {
         public function getInfo(){
             $query = "select titulo, descricao from tb_info";
             return $this->db->query($query)->fetchAll();
