@@ -2,14 +2,14 @@
 
     namespace App\Controllers;
 
-    class IndexController {
+    class indexController {
 
         public function index() {
-            echo 'chegamos ao index controler e disparamos a action index()';
+            echo 'chegamos ao index controler e disparamos a action index';
         }
 
         public function sobreNos(){
-            echo 'chegamos ao sobreNos controler e disparamos a action sobreNos()';
+            echo 'chegamos ao sobreNos controler e disparamos a action sobreNos';
 
         }
     }
