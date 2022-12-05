@@ -4,13 +4,27 @@
 
     class indexController {
 
+        private $view;
+
+        public function __construct(){
+            $this->$view = new \stdClass();
+        }
+
         public function index() {
-            echo 'chegamos ao index controler e disparamos a action index';
+            $this->$view->$dados = array('Sofá', 'Cadeira', 'Cama');  // para Simular um dado vindo do Model
+            $this->render('index');
         }
 
         public function sobreNos(){
-            echo 'chegamos ao sobreNos controler e disparamos a action sobreNos';
+            $this->$view->$dados = array('Notebook', 'Smartphone');   // para Simular um dado vindo do Model
+            $this->render('sobreNos');
+        }
 
+        public function render($view) {
+            $classAtual = get_class($this);
+            $classAtual = str_replace('App\\Controllers\\', '', $classAtual);
+            $classAtual = strtolower(str_replace('Controller', '', $classAtual));
+            require_once "../View/".$classAtual."/".$view.".phtml";
         }
     }
 
