@@ -330,6 +330,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <summary>Twitter Clone Project Program</summary>
     <br>
     <ul>
+        <li> [X] Intro - Using Mini-Framework</li>
         <li> [ ] User Authentication</li>
         <li> [ ] Timeline Generation </li>
         <li> [ ] Search bar</li>
