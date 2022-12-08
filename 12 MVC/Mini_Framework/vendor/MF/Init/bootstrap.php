@@ -23,7 +23,7 @@
         protected function run($url) {
             foreach($this->getRoutes() as $key => $route) {
                 if($url == $route['route']) {
-                    $class = "App\\Controllers\\" . $route['controller'];
+                    $class = "\\App\\Controllers\\" . $route['controller'];
                     $controller = new $class;
                     $action = $route['action'];
                     $controller->$action();

@@ -331,7 +331,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [X] Intro - Using Mini-Framework</li>
-        <li> [ ] User Authentication</li>
+        <li> [X] User Authentication</li>
         <li> [ ] Timeline Generation </li>
         <li> [ ] Search bar</li>
         <li> [ ] Showing Tweets</li>
