@@ -13,7 +13,7 @@ class Route extends Bootstrap {
 			'controller' => 'indexController',
 			'action' => 'index'
 		);
-        $routes['home'] = array(
+        $routes['inscreverse'] = array(
 			'route' => '/inscreverse',
 			'controller' => 'indexController',
 			'action' => 'inscreverse'
