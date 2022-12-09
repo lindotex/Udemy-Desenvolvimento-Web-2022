@@ -9,14 +9,33 @@
     class AppController extends Action {
 
         public function timeline(){
-            session_start();
+            $this->validaAutenticacao();
+            // Recuperação dos tweets
 
-            if($_SESSION['id'] != '' && $_SESSION['nome'] != ''){
-                $this->render('timeline');
-            } else {
+            $tweet = Container::getModel('Tweet');
+            $tweet->__set('id_usuario', $_SESSION['id']);
+            $tweets = $tweet->getAll();
+            $this->view->tweets = $tweets;
+
+            $this->render('timeline');
+        }
+
+        public function tweet(){
+            $this->validaAutenticacao();
+
+            $tweet = Container::getModel('Tweet');
+
+            $tweet->__set('tweet', $_POST['tweet']);
+            $tweet->__set('id_usuario', $_SESSION['id']);
+            $tweet->salvar();
+            header('Location: /timeline');
+        }
+
+        public function validaAutenticacao(){
+            session_start();
+            if(!isset($_SESSION['id']) || $_SESSION['id'] == '' || !isset($_SESSION['nome']) || $_SESSION['nome'] == ''){
                 header('Location: /?login=erro');
             }
-
         }
     }
 
