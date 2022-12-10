@@ -75,5 +75,13 @@ use PDOStatement;
 
             return $usuario;
         }
+
+        public function getAll() {
+            $query = "Select id, nome, email from usuarios where nome like :nome";
+            $stmt = $this->db->prepare($query);
+            $stmt->bindValue(':nome', '%'.$this->$_GET('nome').'%');
+            $stmt->execute();
+            return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+        }
     }
 ?>
