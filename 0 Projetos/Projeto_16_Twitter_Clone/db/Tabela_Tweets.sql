@@ -1,5 +1,3 @@
-use twitter_clone;
-
 create table tweets(
 	id int not null PRIMARY KEY AUTO_INCREMENT,
 	id_usuario int not null,
