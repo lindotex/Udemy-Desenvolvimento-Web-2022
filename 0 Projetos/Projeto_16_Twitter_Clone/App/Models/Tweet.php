@@ -41,7 +41,8 @@
             from
                 tweets as t
                 left join usuarios as u on (t.id_usuario = u.id)
-                where id_usuario = :id_usuario
+            where id_usuario = :id_usuario
+            or t.id_usuario in (select id_usuario_seguindo from usuarios_seguidores where id_usuario= :id_usuario)
                 order by
                 t.data desc";
             $stmt = $this->db->prepare($query);
