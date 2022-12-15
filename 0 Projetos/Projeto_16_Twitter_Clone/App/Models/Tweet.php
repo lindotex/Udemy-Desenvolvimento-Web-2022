@@ -31,7 +31,12 @@
 
             return $this;
         }
-
+        public function apagar() {
+            $query = "delete from tweets where tweet = :tweet";
+            $stmt = $this->db->prepare($query);
+            $stmt->bindValue(':tweet', $this->__get('tweet'));
+            $stmt->execute();
+        }
         // Recuperar
 
         public function getAll(){

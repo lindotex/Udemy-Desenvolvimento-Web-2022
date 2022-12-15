@@ -17,6 +17,14 @@
             $tweets = $tweet->getAll();
             $this->view->tweets = $tweets;
 
+            $usuario = Container::getModel('Usuario');
+            $usuario->__set('id', $_SESSION['id']);
+
+            $this->view->info_usuario = $usuario->getInfoUsuario();
+            $this->view->total_tweets = $usuario->getTotalTweets();
+            $this->view->total_seguindo = $usuario->getTotalSeguindo();
+            $this->view->total_seguidores = $usuario->getTotalSeguidores();
+
             $this->render('timeline');
         }
 
@@ -28,6 +36,14 @@
             $tweet->__set('tweet', $_POST['tweet']);
             $tweet->__set('id_usuario', $_SESSION['id']);
             $tweet->salvar();
+            header('Location: /timeline');
+        }
+
+        public function deletar(){
+            $this->validaAutenticacao();
+            $tweet = Container::getModel('Tweet');
+            $tweet->__set('tweet', $_POST['tweet']);
+            $tweet->apagar();
             header('Location: /timeline');
         }
 
