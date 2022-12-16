@@ -28,6 +28,7 @@ Authors: <a href="https://jamiltondamasceno.com.br/">Jamilton Damasceno</a> e <a
   <br>
   <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="sass"/>
   <img src="https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white" alt="ionic"/>
+  <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" alt="angular"/>
   <img src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white" alt="wordpress"/>
   <br><br><br><br>
 
@@ -382,7 +383,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Buttons </li>
         <li> [ ] Data Entrance</li>
         <li> [ ] Data Biding</li>
-        <li> [ ] Angular</li>
+        <li> [ ] Angular Fundamentals</li>
         <li> [ ] Grids</li>
         <li> [ ] Navigation</li>
         <li> [ ] Modeling</li>
