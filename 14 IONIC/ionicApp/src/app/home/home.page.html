@@ -84,7 +84,44 @@
           </ion-item-option>
         </ion-item-options>
       </ion-item-sliding>
+      <ion-item-sliding>
+        <ion-item>
+          <ion-label>Cassio Lindote</ion-label>
+        </ion-item>
+        <ion-item-options side="start">
+          <ion-item-option color="success">
+            <ion-icon slot="start" name="create-outline"></ion-icon>Alterar
+          </ion-item-option>
+          <ion-item-option color="danger">
+            <ion-icon slot="start" name="trash"></ion-icon>Excluir
+          </ion-item-option>
+        </ion-item-options>
+      </ion-item-sliding>
     </ion-list>
+  </ion-card>
+
+  <!-- COMPONENTES DE ENTRADAS DE DADOS -->
+  <ion-card   color="primary">
+    <h4 class="ion-text-center">Configurando entrada</h4>
+    <p class="ion-text-center">(floating, fixed e stacked)</p>
+    <ion-item class="d-flex">
+      <ion-label for="nome" name="nome" position="floating">Nome:</ion-label>
+      <ion-input placeholder="Digite seu Nome" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label for="cpf" name="cpf" position="floating">CPF:</ion-label>
+      <ion-input clearInput placeholder="Digite seu numero" type="number" mask="***.***.***-**"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input clearInput placeholder="Digite seu password" type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input clearInput placeholder="Repita seu password" type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input clearInput placeholder="Digite seu email" type="email"></ion-input>
+    </ion-item>
+    <ion-button expand="block" color="success">Submit</ion-button>
   </ion-card>
 
 </ion-content>
