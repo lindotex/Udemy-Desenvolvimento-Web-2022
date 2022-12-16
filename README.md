@@ -382,12 +382,13 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <ul>
         <li> [X] Components</li>
         <li> [X] Buttons </li>
-        <li> [ ] Data Entrance</li>
+        <li> [X] Data Entrance</li>
+        <li> [X] Grids</li>
+        <li> [X] Angular Fundamentals</li>
         <li> [ ] Data Biding</li>
-        <li> [ ] Angular Fundamentals</li>
-        <li> [ ] Grids</li>
         <li> [ ] Navigation</li>
         <li> [ ] Modeling</li>
+        <li> [ ] App Gasolina</li>
       </ul>
   </details>
   </li>
