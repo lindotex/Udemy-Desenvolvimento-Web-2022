@@ -379,7 +379,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [X] Components</li>
-        <li> [ ] Buttons </li>
+        <li> [X] Buttons </li>
         <li> [ ] Data Entrance</li>
         <li> [ ] Data Biding</li>
         <li> [ ] Angular</li>
