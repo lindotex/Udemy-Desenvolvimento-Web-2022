@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "formidable": "^3.2.5",
+    "superagent": "^8.0.6"
+  }
+}

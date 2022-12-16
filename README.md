@@ -373,12 +373,12 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>   <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/>
         <details>
     <summary>IONIC Program</summary>
     <br>
     <ul>
-        <li> [ ] Components</li>
+        <li> [X] Components</li>
         <li> [ ] Buttons </li>
         <li> [ ] Data Entrance</li>
         <li> [ ] Data Biding</li>
