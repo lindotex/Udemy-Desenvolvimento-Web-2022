@@ -325,27 +325,27 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/Twitter%20Clone%20Project-6%20hours-informational"/>
     <details>
     <summary>Twitter Clone Project Program</summary>
     <br>
     <ul>
         <li> [X] Intro - Using Mini-Framework</li>
         <li> [X] User Authentication</li>
-        <li> [ ] Timeline Generation </li>
-        <li> [ ] Search bar</li>
-        <li> [ ] Showing Tweets</li>
-        <li> [ ] Follow and un-follow Function</li>
-        <li> [ ] Pagination</li>
+        <li> [X] Timeline Generation </li>
+        <li> [X] Search bar</li>
+        <li> [X] Showing Tweets</li>
+        <li> [X] Follow and un-follow Function</li>
+        <li> [X] Pagination</li>
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/> <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/>
         <details>
     <summary>API Manipulation Program</summary>
     <br>
     <ul>
-        <li> [ ] Requests</li>
+        <li> [X] Requests</li>
         <li> [ ] Routers </li>
         <li> [ ] Dependencies</li>
         <li> [ ] Middleware</li>
