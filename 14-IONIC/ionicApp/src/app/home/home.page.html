@@ -8,6 +8,25 @@
 
 <ion-content [fullscreen]="true">
 
+  Data binding (Ligação de dados)
+  <!-- Uso do double-mustache "{{ }}" para inserção de variaveis em qualquer lugar do elemento -->
+  <h4>String Interpolation</h4>
+  <h1>{{ titulo }}</h1>
+
+  <h4>Property Binding</h4>
+  <!-- Uso de  "[ ]" no nome da propriedade permite a utilização de variaveis dentro da mesma -->
+  <ion-img [src]="imagemRamdomica"></ion-img>
+
+  <ion-img [src]="imagemLocal"></ion-img>
+
+  <h4>Event Binding</h4>
+  <!-- Uso de  "( )"  -->
+  <ion-item>
+    <ion-label position="stacked">Seu nome:</ion-label>
+    <ion-input (input)="atualiza()"></ion-input>
+  </ion-item>
+  <ion-button (click)="acao">Botão</ion-button>
+
   <h1 class="ion-text-center">Titulo do meu App</h1>
   <p class="ion-text-center text-md ion-padding-top">conteudo do App</p>
   <ion-row class="d-flex ion-justify-content-center">
