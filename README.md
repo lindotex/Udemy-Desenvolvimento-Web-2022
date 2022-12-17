@@ -385,7 +385,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Data Entrance</li>
         <li> [X] Grids</li>
         <li> [X] Angular Fundamentals</li>
-        <li> [ ] Data Biding</li>
+        <li> [X] Data Biding</li>
         <li> [ ] Navigation</li>
         <li> [ ] Modeling</li>
         <li> [ ] App Gasolina</li>
