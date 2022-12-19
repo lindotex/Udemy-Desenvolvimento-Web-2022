@@ -375,7 +375,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>   <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>   <img src="https://img.shields.io/badge/IONIC-6%20hours-blue"/>
         <details>
     <summary>IONIC Program</summary>
     <br>
@@ -388,11 +388,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Data Biding</li>
         <li> [X] Navigation</li>
         <li> [X] Modeling</li>
-        <li> [ ] App Gasolina</li>
+        <li> [X] App Gasolina</li>
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-AWAITING-red"/>  <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/>
             <details>
     <summary>WordPress Program</summary>
     <br>
