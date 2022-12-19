@@ -7,151 +7,170 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <script> // Maneira 1 </script>
+  <h1>Navegação href</h1>
+  <ion-button [href]="'/botoes/'" routerDirection="forward" expand="full">Botoes</ion-button>
+  <ion-button [href]="'/lista/'" routerDirection="forward" expand="full">Lista</ion-button>
 
-  Data binding (Ligação de dados)
-  <!-- Uso do double-mustache "{{ }}" para inserção de variaveis em qualquer lugar do elemento -->
-  <h4>String Interpolation</h4>
-  <h1>{{ titulo }}</h1>
+  <script> // Maneira 2 </script>
+  <h1>Navegação c/ metodos</h1>
+  <ion-button (click)="abrirBotoes()" expand="full">Botoes</ion-button>
+  <ion-button (click)="abrirLista()" expand="full">Lista</ion-button>
 
-  <h4>Property Binding</h4>
-  <!-- Uso de  "[ ]" no nome da propriedade permite a utilização de variaveis dentro da mesma -->
-  <ion-img [src]="imagemRamdomica"></ion-img>
-
-  <ion-img [src]="imagemLocal"></ion-img>
-
-  <h4>Event Binding</h4>
-  <!-- Uso de  "( )"  -->
+  <h1>Modelos</h1>
+  {{ resultado }}
   <ion-item>
-    <ion-label position="stacked">Seu nome:</ion-label>
-    <ion-input (input)="atualiza()"></ion-input>
+    <ion-label positon="stacked">Digite sua pesquisa:</ion-label>
+    <ion-input [(ngModel)]="pesquisa" type="text"></ion-input>
   </ion-item>
-  <ion-button (click)="acao">Botão</ion-button>
+  <ion-button (click)="recuperar()" expand="full">Clique</ion-button>
 
-  <h1 class="ion-text-center">Titulo do meu App</h1>
-  <p class="ion-text-center text-md ion-padding-top">conteudo do App</p>
-  <ion-row class="d-flex ion-justify-content-center">
-    <ion-button color="primary" shape="round" fill="outline">Primary</ion-button>
-  </ion-row>
+  <!--
+      <h4>String Interpolation</h4>
+      <h1>{{ titulo }}</h1>
 
-  <ion-card color="warning">
-    <ion-card-content>
-      <ion-card-title>
-        <h1>Lorem Card</h1>
-      </ion-card-title>
-      <ion-card-subtitle class="border-rouded">
+      <h4>Property Binding</h4>
+
+      <ion-img [src]="imagemRamdomica" style="height: 40px"></ion-img>
+
+      <ion-img [src]="imagemLocal" style="height: 40px"></ion-img>
+
+      <h4>Event Binding</h4>
+
+      <ion-item>
+        <ion-label position="stacked">Seu nome:</ion-label>
+        <ion-input (input)="atualiza()"></ion-input>
+      </ion-item>
+      <ion-button (click)="acao">Botão</ion-button>
+
+      <hr/>
+
+      <h1 class="ion-text-center">Titulo do meu App</h1>
+      <p class="ion-text-center text-md ion-padding-top">conteudo do App</p>
+      <ion-row class="d-flex ion-justify-content-center">
+        <ion-button color="primary" shape="round" fill="outline">Primary</ion-button>
+      </ion-row>
+
+      <ion-card color="warning">
+        <ion-card-content>
+          <ion-card-title>
+            <h1>Lorem Card</h1>
+          </ion-card-title>
+          <ion-card-subtitle class="border-rouded">
+            <ion-img src="https://images.unsplash.com/photo-1661956603025-8310b2e3036d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"></ion-img>
+          </ion-card-subtitle>
+          <p>texto do card</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla tempore recusandae, suscipit aliquam dolorum optio possimus dolorem fuga incidunt dolor architecto explicabo quos sapiente corrupti porro totam reprehenderit voluptate?</p>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card color="danger">
+        <ion-card-header>Lorem Card</ion-card-header>
         <ion-img src="https://images.unsplash.com/photo-1661956603025-8310b2e3036d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"></ion-img>
-      </ion-card-subtitle>
-      <p>texto do card</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla tempore recusandae, suscipit aliquam dolorum optio possimus dolorem fuga incidunt dolor architecto explicabo quos sapiente corrupti porro totam reprehenderit voluptate?</p>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card color="danger">
-    <ion-card-header>Lorem Card</ion-card-header>
-    <ion-img src="https://images.unsplash.com/photo-1661956603025-8310b2e3036d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"></ion-img>
-    <ion-card-content>
-      <p>Texto do card</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla tempore recusandae, suscipit aliquam dolorum optio possimus dolorem fuga incidunt dolor architecto explicabo quos sapiente corrupti porro totam reprehenderit voluptate?</p>
-    </ion-card-content>
+        <ion-card-content>
+          <p>Texto do card</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla tempore recusandae, suscipit aliquam dolorum optio possimus dolorem fuga incidunt dolor architecto explicabo quos sapiente corrupti porro totam reprehenderit voluptate?</p>
+        </ion-card-content>
 
 
-    <!-- LISTAS-->
-    <h4 class="ion-text-center">Cartao com listagem de itens</h4>
-    <ion-card>
-      <ion-item href="http://www.google.com">
-        <ion-icon slot="start" name="add"></ion-icon>
-        <ion-label>1.  Lorem 1</ion-label>
-      </ion-item>
-      <ion-item href="http://www.hotmail.com">
-          <ion-icon slot="start" name="star"></ion-icon>
-          <ion-label  abel>2.  Lorem 2</ion-label>
-      </ion-item>
-    </ion-card>
 
-    <!-- LISTAS COM AVATARES -->
-    <h4 class="ion-text-center">Listas com avatares</h4>
-    <ion-card>
-      <ion-item href="http://www.google.com">
-        <ion-avatar slot="start">
-          <ion-img src="https://gravatar.com/avatar/2bf964f6369cb4883ffba651e24b7f67?s=400&d=robohash&r=x"></ion-img>
-        </ion-avatar>
-        <ion-label>Lorem 1</ion-label>
-      </ion-item>
-      <ion-item href="http://www.hotmail.com">
-        <ion-avatar>
-          <ion-img src="https://robohash.org/21eb5a27d234a22734a53b80c49d2e60?set=set4&bgset=&size=400x400"></ion-img>
-        </ion-avatar>
-          <ion-label class="ion-padding-horizontal">Lorem 2</ion-label>
-      </ion-item>
-    </ion-card>
-  </ion-card>
+        <h4 class="ion-text-center">Cartao com listagem de itens</h4>
+        <ion-card>
+          <ion-item href="http://www.google.com">
+            <ion-icon slot="start" name="add"></ion-icon>
+            <ion-label>1.  Lorem 1</ion-label>
+          </ion-item>
+          <ion-item href="http://www.hotmail.com">
+              <ion-icon slot="start" name="star"></ion-icon>
+              <ion-label  abel>2.  Lorem 2</ion-label>
+          </ion-item>
+        </ion-card>
 
-  <ion-card>
-    <!-- LISTAS COM Slides -->
-    <h4 class="ion-text-center">Listas de Slides</h4>
-    <ion-list>
-      <ion-item-sliding>
-        <ion-item>
-          <ion-label>Alisson Lindote</ion-label>
+
+        <h4 class="ion-text-center">Listas com avatares</h4>
+        <ion-card>
+          <ion-item href="http://www.google.com">
+            <ion-avatar slot="start">
+              <ion-img src="https://gravatar.com/avatar/2bf964f6369cb4883ffba651e24b7f67?s=400&d=robohash&r=x"></ion-img>
+            </ion-avatar>
+            <ion-label>Lorem 1</ion-label>
+          </ion-item>
+          <ion-item href="http://www.hotmail.com">
+            <ion-avatar>
+              <ion-img src="https://robohash.org/21eb5a27d234a22734a53b80c49d2e60?set=set4&bgset=&size=400x400"></ion-img>
+            </ion-avatar>
+              <ion-label class="ion-padding-horizontal">Lorem 2</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-card>
+
+      <ion-card>
+
+        <h4 class="ion-text-center">Listas de Slides</h4>
+        <ion-list>
+          <ion-item-sliding>
+            <ion-item>
+              <ion-label>Alisson Lindote</ion-label>
+            </ion-item>
+            <ion-item-options side="start">
+              <ion-item-option color="success">
+                <ion-icon slot="start" name="create-outline"></ion-icon>Alterar
+              </ion-item-option>
+              <ion-item-option color="danger">
+                <ion-icon slot="start" name="trash"></ion-icon>Excluir
+              </ion-item-option>
+            </ion-item-options>
+          </ion-item-sliding>
+          <ion-item-sliding>
+            <ion-item>
+              <ion-label>Cassio Lindote</ion-label>
+            </ion-item>
+            <ion-item-options side="start">
+              <ion-item-option color="success">
+                <ion-icon slot="start" name="create-outline"></ion-icon>Alterar
+              </ion-item-option>
+              <ion-item-option color="danger">
+                <ion-icon slot="start" name="trash"></ion-icon>Excluir
+              </ion-item-option>
+            </ion-item-options>
+          </ion-item-sliding>
+        </ion-list>
+      </ion-card>
+
+
+      <ion-card   color="primary">
+        <h4 class="ion-text-center">Configurando entrada</h4>
+        <p class="ion-text-center">(floating, fixed e stacked)</p>
+        <ion-item class="d-flex">
+          <ion-label for="nome" name="nome" position="floating">Nome:</ion-label>
+          <ion-input placeholder="Digite seu Nome" type="text"></ion-input>
         </ion-item>
-        <ion-item-options side="start">
-          <ion-item-option color="success">
-            <ion-icon slot="start" name="create-outline"></ion-icon>Alterar
-          </ion-item-option>
-          <ion-item-option color="danger">
-            <ion-icon slot="start" name="trash"></ion-icon>Excluir
-          </ion-item-option>
-        </ion-item-options>
-      </ion-item-sliding>
-      <ion-item-sliding>
         <ion-item>
-          <ion-label>Cassio Lindote</ion-label>
+          <ion-label for="cpf" name="cpf" position="floating">CPF:</ion-label>
+          <ion-input clearInput placeholder="Digite seu numero" type="number"></ion-input>
         </ion-item>
-        <ion-item-options side="start">
-          <ion-item-option color="success">
-            <ion-icon slot="start" name="create-outline"></ion-icon>Alterar
-          </ion-item-option>
-          <ion-item-option color="danger">
-            <ion-icon slot="start" name="trash"></ion-icon>Excluir
-          </ion-item-option>
-        </ion-item-options>
-      </ion-item-sliding>
-    </ion-list>
-  </ion-card>
-
-  <!-- COMPONENTES DE ENTRADAS DE DADOS -->
-  <ion-card   color="primary">
-    <h4 class="ion-text-center">Configurando entrada</h4>
-    <p class="ion-text-center">(floating, fixed e stacked)</p>
-    <ion-item class="d-flex">
-      <ion-label for="nome" name="nome" position="floating">Nome:</ion-label>
-      <ion-input placeholder="Digite seu Nome" type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label for="cpf" name="cpf" position="floating">CPF:</ion-label>
-      <ion-input clearInput placeholder="Digite seu numero" type="number"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-input clearInput placeholder="Digite seu password" type="password"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-input clearInput placeholder="Repita seu password" type="password"></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-input clearInput placeholder="Digite seu email" type="email"></ion-input>
-    </ion-item>
-    <ion-button expand="block" color="success">Submit</ion-button>
-  </ion-card>
+        <ion-item>
+          <ion-input clearInput placeholder="Digite seu password" type="password"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input clearInput placeholder="Repita seu password" type="password"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input clearInput placeholder="Digite seu email" type="email"></ion-input>
+        </ion-item>
+        <ion-button expand="block" color="success">Submit</ion-button>
+      </ion-card>
 
 
-  <ion-grid>
-    <ion-row class="ion-text-center">
-      <ion-col><ion-button  expand="block" color="success">A</ion-button></ion-col>
-      <ion-col><ion-button  expand="block" color="danger">B</ion-button></ion-col>
-      <ion-col><ion-button  expand="block" color="warning">C</ion-button></ion-col>
-      <ion-col><ion-button  expand="block" color="warning">C</ion-button></ion-col>
-    </ion-row>
-  </ion-grid>
+      <ion-grid>
+        <ion-row class="ion-text-center">
+          <ion-col><ion-button  expand="block" color="success">A</ion-button></ion-col>
+          <ion-col><ion-button  expand="block" color="danger">B</ion-button></ion-col>
+          <ion-col><ion-button  expand="block" color="warning">C</ion-button></ion-col>
+          <ion-col><ion-button  expand="block" color="warning">C</ion-button></ion-col>
+        </ion-row>
+      </ion-grid>
+  -->
 </ion-content>
 
 <ion-footer>
