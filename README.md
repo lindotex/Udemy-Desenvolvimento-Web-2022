@@ -348,7 +348,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <br>
     <ul>
         <li> [X] Requests</li>
-        <li> [ ] Routers </li>
+        <li> [X] Routers </li>
         <li> [ ] Dependencies</li>
         <li> [ ] Middleware</li>
         <li> [ ] Answers</li>
