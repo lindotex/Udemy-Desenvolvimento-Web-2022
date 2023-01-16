@@ -40,6 +40,62 @@ $app->get('/hello/{name}', function (Request $request, Response $response, $args
     return $response;
 });
 
+// Rota Postagens
+$app->get('/postagem', function (Request $request, Response $response) {
+    $response->getBody()->write("Lista de Postagens");
+    return $response;
+}); 
+
+// Rota Usuarios com ids
+$app->get('/usuario[/{id}]', function (Request $request, Response $response) {
+    $id = $request->getAttribute('id');
+    $response->getBody()->write("<strong>Lista de usuarios</strong> <br>". "Id do Usuário: " . $id);
+    return $response;
+});
+
+// Rota Data das Postagens
+$app->get('/postagens[/{mes}[/{ano}]]', function (Request $request, Response $response) {
+    $mes = $request->getAttribute('mes');
+    $ano = $request->getAttribute('ano');
+    $response->getBody()->write("<strong>Data da postagem</strong> <br>". "Data: " . $mes . " / " . $ano) ;
+    return $response;
+}); 
+
+// Rota Lista
+$app->get('/lista[/{itens:.*}]', function (Request $request, Response $response) {
+    $itens = $request->getAttribute('itens');    
+    $response->getBody()->write("<strong>Lista</strong> <br>");
+    echo "<pre>";
+    var_dump(explode("/", $itens));
+    echo "</pre>";
+    return $response;
+}); 
+
+// Nomear Rotas
+$app->get('/blog/postagens/{id}', function (Request $request, Response $response) {
+    $response->getBody()->write("Listar postagem para uma ID.");
+    return $response;
+})->setName("blog");
+
+$app->get('/meusite', function (Request $request, Response $response) {
+    $retorno = $this->get("router")->pathFor("blog", ["id"=>"5"]);
+    return $retorno;
+});
+
+// Agrupando Rotas
+$app->group('/v1', function () use ($app) {
+
+    $app->get('/usuarios', function (Request $request, Response $response) {
+        $response->getBody()->write("Lista de Usuarios");
+        return $response;
+    }); 
+    
+    $app->get('/postageins', function (Request $request, Response $response) {
+        $response->getBody()->write("Lista de Postagens");
+        return $response;
+    });
+}); 
+
 // Run app
 $app->run();
 ?>
