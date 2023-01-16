@@ -1,6 +1,6 @@
 <?php
-use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
+use Psr\Http\Message\ResponseInterface as Response;
 use Slim\Factory\AppFactory;
 
 require 'vendor/autoload.php';
@@ -40,61 +40,106 @@ $app->get('/hello/{name}', function (Request $request, Response $response, $args
     return $response;
 });
 
-// Rota Postagens
-$app->get('/postagem', function (Request $request, Response $response) {
-    $response->getBody()->write("Lista de Postagens");
-    return $response;
-}); 
 
-// Rota Usuarios com ids
-$app->get('/usuario[/{id}]', function (Request $request, Response $response) {
+// Tipos de Requisição ou verbos HTTP
+/*
+    get -> Recupera recursos do servidor (Select);
+    post -> Cria dado no servidor (Insert);
+    put -> Atualiza dado no servidor (Update);
+    delete -> Deletar dados do servidor (Delete);
+*/
+$app->get('/usuarios', function (Request $request, Response $response) {
+    $response->getBody()->write("Hello, $name");
+    return $response;
+});
+
+$app->post('/usuarios/adiciona', function (Request $request, Response $response) {
+    $post = $request->getParsedBody();
+    $nome = $post['nome'];
+    $email = $post['email'];
+    /*
+    Salvar no BD com INSERT INTO..
+    */
+
+    return $response->getBody()->write("Sucesso em adicionar");
+});
+
+$app->put('/usuarios/atualizar/{id}', function (Request $request, Response $response) {    
+    $id = $post['id'];
+    $nome = $post['nome'];
+    $email = $post['email'];
+    /*
+    Atualiza no BD com UPDATE..
+    */
+
+    return $response->getBody()->write("Sucesso em Adicionar");
+});
+
+$app->delete('/usuarios/remove/{id}', function (Request $request, Response $response) {
     $id = $request->getAttribute('id');
-    $response->getBody()->write("<strong>Lista de usuarios</strong> <br>". "Id do Usuário: " . $id);
-    return $response;
+    /*
+    Deletar no BD com DELETE..
+    */
+
+    return $response->getBody()->write("Sucesso em Deletar");
 });
 
-// Rota Data das Postagens
-$app->get('/postagens[/{mes}[/{ano}]]', function (Request $request, Response $response) {
-    $mes = $request->getAttribute('mes');
-    $ano = $request->getAttribute('ano');
-    $response->getBody()->write("<strong>Data da postagem</strong> <br>". "Data: " . $mes . " / " . $ano) ;
-    return $response;
-}); 
 
-// Rota Lista
-$app->get('/lista[/{itens:.*}]', function (Request $request, Response $response) {
-    $itens = $request->getAttribute('itens');    
-    $response->getBody()->write("<strong>Lista</strong> <br>");
-    echo "<pre>";
-    var_dump(explode("/", $itens));
-    echo "</pre>";
-    return $response;
-}); 
+// // Rota Postagens
+// $app->get('/postagem', function (Request $request, Response $response) {
+//     $response->getBody()->write("Lista de Postagens");
+//     return $response;
+// }); 
 
-// Nomear Rotas
-$app->get('/blog/postagens/{id}', function (Request $request, Response $response) {
-    $response->getBody()->write("Listar postagem para uma ID.");
-    return $response;
-})->setName("blog");
+// // Rota Usuarios com ids
+// $app->get('/usuario[/{id}]', function (Request $request, Response $response) {
+//     $id = $request->getAttribute('id');
+//     $response->getBody()->write("<strong>Lista de usuarios</strong> <br>". "Id do Usuário: " . $id);
+//     return $response;
+// });
 
-$app->get('/meusite', function (Request $request, Response $response) {
-    $retorno = $this->get("router")->pathFor("blog", ["id"=>"5"]);
-    return $retorno;
-});
+// // Rota Data das Postagens
+// $app->get('/postagens[/{mes}[/{ano}]]', function (Request $request, Response $response) {
+//     $mes = $request->getAttribute('mes');
+//     $ano = $request->getAttribute('ano');
+//     $response->getBody()->write("<strong>Data da postagem</strong> <br>". "Data: " . $mes . " / " . $ano) ;
+//     return $response;
+// }); 
 
-// Agrupando Rotas
-$app->group('/v1', function () use ($app) {
+// // Rota Lista
+// $app->get('/lista[/{itens:.*}]', function (Request $request, Response $response) {
+//     $itens = $request->getAttribute('itens');    
+//     $response->getBody()->write("<strong>Lista</strong> <br>");
+//     echo "<pre>";
+//     var_dump(explode("/", $itens));
+//     echo "</pre>";
+//     return $response;
+// }); 
 
-    $app->get('/usuarios', function (Request $request, Response $response) {
-        $response->getBody()->write("Lista de Usuarios");
-        return $response;
-    }); 
+// // Nomear Rotas
+// $app->get('/blog/postagens/{id}', function (Request $request, Response $response) {
+//     $response->getBody()->write("Listar postagem para uma ID.");
+//     return $response;
+// })->setName("blog");
+
+// $app->get('/meusite', function (Request $request, Response $response) {
+//     $retorno = $this->get("router")->pathFor("blog", ["id"=>"5"]);
+//     return $retorno;
+// });
+
+// // Agrupando Rotas
+// $app->group('/v1', function () use ($app) {
+
+//     $app->get('/usuarios', function (Request $request, Response $response) {
+//         $response->getBody()->write("Lista de Usuarios");
+//         return $response;
+//     }); 
     
-    $app->get('/postageins', function (Request $request, Response $response) {
-        $response->getBody()->write("Lista de Postagens");
-        return $response;
-    });
-}); 
+//     $app->get('/postageins', function (Request $request, Response $response) {
+//         $response->getBody()->write("Lista de Postagens");
+//         return $response;
+//     });
+// }); 
 
 // Run app
 $app->run();

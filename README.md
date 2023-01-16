@@ -349,6 +349,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
     <ul>
         <li> [X] Requests</li>
         <li> [X] Routers </li>
+        <li> [X] HTTP Requests (psr7) </li>
         <li> [ ] Dependencies</li>
         <li> [ ] Middleware</li>
         <li> [ ] Answers</li>
