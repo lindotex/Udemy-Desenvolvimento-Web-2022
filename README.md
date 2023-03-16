@@ -342,7 +342,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/> <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/>
+  <li> [ ] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/API%20Framework%20Slim-6%20hours-red"/>
         <details>
     <summary>API Manipulation Program</summary>
     <br>
@@ -350,11 +350,11 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Requests</li>
         <li> [X] Routers </li>
         <li> [X] HTTP Requests (psr7) </li>
-        <li> [ ] Dependencies</li>
-        <li> [ ] Middleware</li>
-        <li> [ ] Answers</li>
-        <li> [ ] Database</li>
-        <li> [ ] Creating APIs</li>
+        <li> [X] Dependencies</li>
+        <li> [X] Middleware</li>
+        <li> [X] Answers</li>
+        <li> [X] Database</li>
+        <li> [X] Creating APIs</li>
       </ul>
   </details>
   </li>
