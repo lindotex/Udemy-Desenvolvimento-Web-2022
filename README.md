@@ -167,9 +167,9 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Web Storage (Local Storage, Section Storage, Cookies, IndexDB, Web SQL)</li>
         <li> [X] Array Functions</li>
         <li> [X] App CRD Project</li>
-        <li> [ ] Generators</li>
+        <li> [X] Generators</li>
         <li> [ ] Promises</li>
-        <li> [x] ECMA 2016</li>
+        <li> [X] ECMA 2016</li>
         <li> [ ] ECMA 2017</li>
         <li> [ ] ECMA 2018</li>
         <li> [ ] ECMA 2019</li>
@@ -393,18 +393,18 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/>  <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/> <img src="https://img.shields.io/badge/WordPress-6%20hours-blue"/>
             <details>
     <summary>WordPress Program</summary>
     <br>
     <ul>
-        <li> [ ] Install</li>
-        <li> [ ] Themes </li>
-        <li> [ ] Customization</li>
-        <li> [ ] Plugins</li>
-        <li> [ ] Users</li>
-        <li> [ ] Contacts</li>
-        <li> [ ] Page Generator</li>
+        <li> [X] Install</li>
+        <li> [X] Themes </li>
+        <li> [X] Customization</li>
+        <li> [X] Plugins</li>
+        <li> [X] Users</li>
+        <li> [X] Contacts</li>
+        <li> [X] Page Generator</li>
       </ul>
   </details>
   </li>
