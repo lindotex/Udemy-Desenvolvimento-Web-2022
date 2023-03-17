@@ -10,13 +10,13 @@
 
         $query = '
             select * from tb_usuarios
-        '
+        ';
 
         $stmt = $conexao->query($query); //Retorna um PDOStatement
-        $lista = $stmt-> fetchAll(PDO::FETCH_ASSOC) // Retorna o PDOStatemento apenas com os arrays associativos.
-        $lista = $stmt-> fetchAll(PDO::FETCH_NUM) // Retorna o PDOStatemento apenas com os arrays numericos.
-        $lista = $stmt-> fetchAll(PDO::FETCH_BOTH) // Retorna o PDOStatemento apenas com os arrays com todos.
-        $lista = $stmt-> fetchAll(PDO::FETCH_OBJ) // Retorna o PDOStatemento com formato de OBJETO.
+        $lista = $stmt-> fetchAll(PDO::FETCH_ASSOC); // Retorna o PDOStatemento apenas com os arrays associativos.
+        $lista = $stmt-> fetchAll(PDO::FETCH_NUM); // Retorna o PDOStatemento apenas com os arrays numericos.
+        $lista = $stmt-> fetchAll(PDO::FETCH_BOTH); // Retorna o PDOStatemento apenas com os arrays com todos.
+        $lista = $stmt-> fetchAll(PDO::FETCH_OBJ); // Retorna o PDOStatemento com formato de OBJETO.
 
         echo $retorno;
 

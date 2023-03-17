@@ -10,15 +10,15 @@
 
     //Os 9 operadores de comparação em PHP:
 
-    $Igual ' == ';
-    $Identico '===' ;
-    $Diferente '!=' ;
-    $Diferente '<>' ;
-    $Não_Identico '=!=';
-    $Menor '<';
-    $Maior '>';
-    $Menor_igual '<=';
-    $Maior_igual '>=';
+    // $Igual ' == ';
+    // $Identico '===' ;
+    // $Diferente '!=' ;
+    // $Diferente '<>' ;
+    // $Não_Identico '=!=';
+    // $Menor '<';
+    // $Maior '>';
+    // $Menor_igual '<=';
+    // $Maior_igual '>=';
 
 
     ?>

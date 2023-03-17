@@ -168,13 +168,13 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] Array Functions</li>
         <li> [X] App CRD Project</li>
         <li> [X] Generators</li>
-        <li> [ ] Promises</li>
-        <li> [X] ECMA 2016</li>
-        <li> [ ] ECMA 2017</li>
-        <li> [ ] ECMA 2018</li>
-        <li> [ ] ECMA 2019</li>
-        <li> [ ] ECMA 2020</li>
-        <li> [ ] ECMA 2021</li>
+        <li> [X] Promises</li>
+        <li> [X] ECMA 2016 - Array.prototype.includes - Exponential Operator</li>
+        <li> [ ] ECMA 2017 - Async/Await - Object.value - Object.entries - Object.getOwnPropertiesDescriptors - String padStart/padEnd</li>
+        <li> [ ] ECMA 2018 - Asynchronous iterations - Promisse Finally</li>
+        <li> [ ] ECMA 2019 - Array Flat - Array flatmap - String trimStart(trimLeft)/trimEnd(trimRight) - Object.fromEntries - function toString - Catch com parametro opcional</li>
+        <li> [ ] ECMA 2020 - Dinamic Import - Operador de visibilidade Private - Optional Chaining - Promisse allSettled - Nullish Coalescing Operator/li>
+        <li> [ ] ECMA 2021 - Logical Nullish assignment - Logical OR Assignment - Logical AND Assignment - Numeric separator - String Replace All</li>
       </ul>
   </details>
   </li>

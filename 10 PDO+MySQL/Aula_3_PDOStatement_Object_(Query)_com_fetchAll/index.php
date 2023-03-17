@@ -10,10 +10,10 @@
 
         $query = '
             select * from tb_usuarios
-        '
+        ';
 
         $stmt = $conexao->query($query); //Retorna um PDOStatement
-        $lista = $stmt-> fetchAll()
+        $lista = $stmt-> fetchAll();
 
 
         echo $retorno;
