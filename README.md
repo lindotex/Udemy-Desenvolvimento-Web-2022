@@ -172,7 +172,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] ECMA 2016 (ES7)- Array.prototype.includes</li>
         <li> [X] ECMA 2016 (ES7) - Exponential Operator</li>
         <li> [X] ECMA 2017 (ES8) - Async/Await</li>
-        <li> [ ] ECMA 2017 (ES8) - Object.value</li>
+        <li> [X] ECMA 2017 (ES8) - Object.value</li>
         <li> [ ] ECMA 2017 (ES8) - Object.entries </li>
         <li> [ ] ECMA 2017 (ES8) - Object.getOwnPropertiesDescriptors</li>
         <li> [ ] ECMA 2017 (ES8) - String padStart/padEnd</li>
