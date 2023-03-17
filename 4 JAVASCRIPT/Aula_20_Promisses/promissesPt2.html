@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let promessa = new Promisse((resolve, reject) => {
+            //Padrão comum  de promisse
+            // try {
+            // } catch(e) {
+            // }
+
+            //requisições HTTP fake:
+                setTimeout(()=> {
+                    //requisição foi realizada de um modo (AJAX, ClientHTTP,...)
+                    let respostaDaRequisição = {}
+
+                    //erro na requisição (True = Erro, False = Sem Erro)
+                    if(true){
+                        respostaDaRequisição = {
+                            código: 1050,
+                            erro: 'Falha na autorização!'
+                        }
+                        reject(respostaDaRequisição)
+                    }
+
+                    respostaDaRequisição = {
+                        0: {id: 1, nome : 'João'},
+                        1: {id: 2, nome : 'José'},
+                        2: {id: 3, nome : 'Maria'},
+
+                    }
+                    resolve(respostaDaRequisição)
+
+                }, 4000)
+        }).then(dados => {
+            console.log(dados)
+
+            //Segunda Promisse:
+            let promessa2 = new Promisse((resolve, reject)=>{
+                    //requisições HTTP fake:
+                    setTimeout(()=> {
+                    //requisição foi realizada para recuperar uma relação de posts de usuarios
+                    let respostaDaRequisição = {}
+
+                    //erro na requisição (True = Erro, False = Sem Erro)
+                    if(true){
+                        respostaDaRequisição = {
+                            código: 7788,
+                            erro: 'Erro ao recuperar os posts dos usuarios'
+                        }
+                        reject(respostaDaRequisição)
+                    }
+
+                    respostaDaRequisição = {
+                        0: {id: 1, usuario_id : 1, posts : [
+                            {id:1, post: 'post 1'},
+                            {id:2, post: 'post 2'},
+                        ]},
+                        1: {id: 2, usuario_id : 2, posts : [
+                            {id:3, post: 'post 1'},
+                            {id:4, post: 'post 2'},
+                        ]},
+                        2: {id: 3, usuario_id : 3, posts : [
+                            {id:5, post: 'post 1'},
+                            {id:6, post: 'post 2'},
+                        ]},
+
+                    }
+                    resolve(respostaDaRequisição)
+
+                }, 4000)
+            }).then(dados =>{
+                console.log(dados)
+            }).catch(erro=>{
+                console.log(erro)
+            })
+        }).then(param=>{
+            console.log("Número 2", param)
+        }).then(()=>{
+            console.log("Número 3")
+        }).then(()=>{
+            console.log("Número 4")
+
+            return 'Parametro capturado no then e enviado ao proximo then'
+        }).catch(erro => {
+            console.log('Operação sequencial (Catch):', erro)
+
+            return 'Parametro capturado no catch e enviado ao proximo then'
+        }).then(param=>{
+            console.log("Número 5", param )
+        }).then(()=>{
+            console.log("Número 6")
+        })
+    </script>
+</body>
+</html>
