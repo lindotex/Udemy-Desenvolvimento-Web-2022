@@ -169,31 +169,31 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] App CRD Project</li>
         <li> [X] Generators</li>
         <li> [X] Promises</li>
-        <li> [X] ECMA 2016 - Array.prototype.includes</li>
-        <li> [ ] ECMA 2016 - Exponential Operator</li>
-        <li> [ ] ECMA 2017 - Async/Await</li>
-        <li> [ ] ECMA 2017 - Object.value</li>
-        <li> [ ] ECMA 2017 - Object.entries </li>
-        <li> [ ] ECMA 2017 - Object.getOwnPropertiesDescriptors</li>
-        <li> [ ] ECMA 2017 - String padStart/padEnd</li>
-        <li> [ ] ECMA 2018 - Asynchronous iterations</li>
-        <li> [ ] ECMA 2018 - Promisse Finally</li>
-        <li> [ ] ECMA 2019 - Array Flat </li>
-        <li> [ ] ECMA 2019 - Array flatmap </li>
-        <li> [ ] ECMA 2019 - String trimStart(trimLeft)/trimEnd(trimRight)</li>
-        <li> [ ] ECMA 2019 - Object.fromEntries</li>
-        <li> [ ] ECMA 2019 - function toString</li>
-        <li> [ ] ECMA 2019 - Catch com parametro opcional</li>
-        <li> [ ] ECMA 2020 - Dinamic Import</li>
-        <li> [ ] ECMA 2020 - Operador de visibilidade Private</li>
-        <li> [ ] ECMA 2020 - Optional Chaining</li>
-        <li> [ ] ECMA 2020 - Promisse allSettled</li>
-        <li> [ ] ECMA 2020 - Nullish Coalescing Operator</li>
-        <li> [ ] ECMA 2021 - Logical Nullish assignment </li>
-        <li> [ ] ECMA 2021 - Logical OR Assignment</li>
-        <li> [ ] ECMA 2021 - Logical AND Assignment</li>
-        <li> [ ] ECMA 2021 - Numeric separator</li>
-        <li> [ ] ECMA 2021 - String Replace All</li>
+        <li> [X] ECMA 2016 (ES7)- Array.prototype.includes</li>
+        <li> [X] ECMA 2016 (ES7) - Exponential Operator</li>
+        <li> [X] ECMA 2017 (ES8) - Async/Await</li>
+        <li> [ ] ECMA 2017 (ES8) - Object.value</li>
+        <li> [ ] ECMA 2017 (ES8) - Object.entries </li>
+        <li> [ ] ECMA 2017 (ES8) - Object.getOwnPropertiesDescriptors</li>
+        <li> [ ] ECMA 2017 (ES8) - String padStart/padEnd</li>
+        <li> [ ] ECMA 2018 (ES9) - Asynchronous iterations</li>
+        <li> [ ] ECMA 2018 (ES9) - Promisse Finally</li>
+        <li> [ ] ECMA 2019 (ES10) - Array Flat </li>
+        <li> [ ] ECMA 2019 (ES10) - Array flatmap </li>
+        <li> [ ] ECMA 2019 (ES10) - String trimStart(trimLeft)/trimEnd(trimRight)</li>
+        <li> [ ] ECMA 2019 (ES10) - Object.fromEntries</li>
+        <li> [ ] ECMA 2019 (ES10) - function toString</li>
+        <li> [ ] ECMA 2019 (ES10) - Catch com parametro opcional</li>
+        <li> [ ] ECMA 2020 (ES11) - Dinamic Import</li>
+        <li> [ ] ECMA 2020 (ES11) - Operador de visibilidade Private</li>
+        <li> [ ] ECMA 2020 (ES11) - Optional Chaining</li>
+        <li> [ ] ECMA 2020 (ES11) - Promisse allSettled</li>
+        <li> [ ] ECMA 2020 (ES11) - Nullish Coalescing Operator</li>
+        <li> [ ] ECMA 2021 (ES12) - Logical Nullish assignment </li>
+        <li> [ ] ECMA 2021 (ES12) - Logical OR Assignment</li>
+        <li> [ ] ECMA 2021 (ES12) - Logical AND Assignment</li>
+        <li> [ ] ECMA 2021 (ES12) - Numeric separator</li>
+        <li> [ ] ECMA 2021 (ES12) - String Replace All</li>
       </ul>
   </details>
   </li>
