@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ['banana', 'maça', 'uva']
+
+        //como pesquisar se existe um determinado elemento?!
+        // ES7 :: INCLUDES
+
+        // Utilizando o método 'find()' do ES6
+        // ************************************
+        let retorno = arr.find(item => item == 'maça')
+            // Find retorna o valor pesquisado se existente, ou 'undefined' caso não exista
+        console.log(retorno)
+
+        let retorno2 = arr.find(item => item == 'abacaxi')
+            // Find retorna o valor pesquisado se existente, ou 'undefined' caso não exista
+        console.log(retorno2)
+
+        // Utilizando o método 'includes' do ES7
+        //**************************************
+        let retornoInc = arr.includes('maça')
+            // Includes retorna o valor 'true', se existente, ou  'false', se inexistente
+        console.log(retornoInc)
+    </script>
+</body>
+</html>
