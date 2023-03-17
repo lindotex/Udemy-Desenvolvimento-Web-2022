@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Objeto da aula anterior:
+         let objeto = {
+            nome: "Alisson",
+            profissional: {
+                site: "alisson.com.br",
+                profissão: 'Programador',
+
+            },
+            hobbies: [
+                {id:1 , hobby: 'fazer trilhas'},
+                {id:2 , hobby: 'dormir'}
+            ],
+            pais: 'Brasil'
+        }
+        console.log(objeto)
+        console.log(Object.values(objeto))
+
+        // ES8 : Object Entries:
+        console.log(Object.entries(objeto))
+        // converte todas as entradas para arrays.
+    </script>
+</body>
+</html>
