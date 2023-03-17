@@ -175,7 +175,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] ECMA 2017 (ES8) - Object.value</li>
         <li> [X] ECMA 2017 (ES8) - Object.entries </li>
         <li> [ ] ECMA 2017 (ES8) - Object.getOwnPropertiesDescriptors</li>
-        <li> [ ] ECMA 2017 (ES8) - String padStart/padEnd</li>
+        <li> [X] ECMA 2017 (ES8) - String padStart/padEnd</li>
         <li> [ ] ECMA 2018 (ES9) - Asynchronous iterations</li>
         <li> [ ] ECMA 2018 (ES9) - Promisse Finally</li>
         <li> [ ] ECMA 2019 (ES10) - Array Flat </li>
