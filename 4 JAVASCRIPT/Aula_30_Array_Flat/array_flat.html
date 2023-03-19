@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Array Flat:
+            Utilizado para "achatamento" de arrays Multidimensionais.
+        */
+       let arr = [ 1,2,3,4,[ 5,6,7,8], 10, [11,12,[13,14, [15,16]]] ]
+       console.log(arr)
+
+        // método Flat, faz com que o array interno, passe para o array principal (saindo do sub-array)
+
+        let arr2 = arr.flat()
+        console.log(arr2)
+
+        // o método flat, também possui a propriedade de ajuste para os níveis a serem elevados, quando o
+        // array possui mais de um nível dimensional:
+        // arr.flat(<nivel de profundidade>)
+        // que por padrão é auto-preenchido com 1;
+
+        let arr3 = arr.flat(3)
+        console.log(arr3)
+
+
+
+
+    </script>
+</body>
+</html>
