@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        STRINGTRIM:
+
+        stringStart()= stringLeft()
+        stringEnd() = stringRight()
+
+        */
+
+        let texto = '           teste             '
+
+        console.log(texto)
+
+        console.log('.' + texto.trimStart() + '.')
+        console.log('.' + texto.trimEnd() + '.')
+        console.log('.' + texto.trimEnd().trimStart() + '.')
+        console.log('---------------')
+        console.log('.' + texto.trimLeft() + '.')
+        console.log('.' + texto.trimRight() + '.')
+        console.log('.' + texto.trimRight().trimLeft() + '.')
+    </script>
+</body>
+</html>

@@ -180,7 +180,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] ECMA 2018 (ES9) - Promisse Finally</li>
         <li> [X] ECMA 2019 (ES10) - Array Flat </li>
         <li> [X] ECMA 2019 (ES10) - Array flatmap </li>
-        <li> [ ] ECMA 2019 (ES10) - String trimStart(trimLeft)/trimEnd(trimRight)</li>
+        <li> [X] ECMA 2019 (ES10) - String trimStart(trimLeft)/trimEnd(trimRight)</li>
         <li> [ ] ECMA 2019 (ES10) - Object.fromEntries</li>
         <li> [ ] ECMA 2019 (ES10) - function toString</li>
         <li> [ ] ECMA 2019 (ES10) - Catch com parametro opcional</li>
