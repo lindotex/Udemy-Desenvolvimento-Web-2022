@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let objeto = {
+            nome: "Alisson Lindote",
+            professional: {
+                site: "http://www.lindote.com.br",
+                profissao: "programador",
+            },
+            hobbies: [
+                {id: 1, hobby: 'Jogar videogame'},
+                {id: 2, hobby: 'Dormir '}
+            ],
+            pais: 'Brasil'
+        }
+
+        console.log('-----Objeto Begin-----------------')
+        console.log(objeto)
+        console.log('-----Objeto End-----------------')
+        console.log('********************')
+        //descritores de propriedades
+        console.log('-----getOwnPropertyDescriptors Begin-----------------')
+        console.log(Object.getOwnPropertyDescriptors(objeto))
+        console.log('-----getOwnPropertyDescriptors End-----------------')
+        console.log('********************')
+
+        /*
+        Descritor Writable:
+            quando definido como 'false', ele indica que o elemento não pode ser modificada!
+        */
+        console.log('-----Writable False Begin-----------------')
+       Object.defineProperty(objeto, 'nome', {
+        value: 'Alisson Lindote',
+        writable: false
+       })
+       console.log('-----Writable False End-----------------')
+       console.log('********************')
+
+
+        /*
+        Descritor Enumerable:
+            quando definido como 'false', a propriedade em questão não é exibida em laços de repetição!
+        */
+        console.log('-----Enumerable True Begin-----------------')
+        //antes:
+       for (let propriedade in objeto) {
+            console.log(propriedade, objeto[propriedade])
+       }
+
+       console.log('-----Enumerable True End --------------------')
+       console.log('********************')
+       console.log('-----Enumerable False Begin-----------------')
+       //depois:
+       Object.defineProperty(objeto, 'hobbies', {enumerable: false})
+       Object.defineProperty(objeto, 'professional', {enumerable: false})
+       for (let propriedade in objeto) {
+            console.log(propriedade, objeto[propriedade])
+       }
+       console.log('-----Enumerable False End-----------------')
+
+       /*
+        Descritor configurable:
+            quando definido como 'false', indica que a propriedade
+            não pode ser deletada, e também não podemos mais modificar os descritores,
+            exceto a mudança de writable: false !
+        */
+        console.log('********************')
+        console.log('-----configurable True Begin-----------------')
+        //antes:
+        Object.defineProperty(objeto, 'hobbies', {enumerable: true})
+        Object.defineProperty(objeto, 'professional', {enumerable: true})
+        for (let propriedade in objeto) {
+                console.log(propriedade, objeto[propriedade])
+        }
+
+        console.log('-----configurable True End --------------------')
+        console.log('********************')
+        console.log('-----configurable False Begin-----------------')
+       //depois:
+        Object.defineProperty(objeto, 'pais', {configurable: false})
+        for (let propriedade in objeto) {
+                console.log(propriedade, objeto[propriedade])
+        }
+        console.log('-----configurable False End-----------------')
+        console.log(Object.getOwnPropertyDescriptors(objeto))
+    </script>
+</body>
+</html>
