@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // em javascript, não temos suporte a arrays associativos...
+        // ou seja, todo array é enumerado com ids... não podendo ser
+        // rearranjado com nomes, e propriedades, como em outras linguagens.
+        // objeto: chave e valor.
+
+        let dados = [
+            ['nome', 'Alisson'],
+            ['profissional', [
+                ['site', 'alisson.com.br']
+                ['profissão', 'programador']
+            ]]
+            ['hobbies',['caminhar', 'nadar']]
+            ['pais', 'Brasil']
+        ];
+
+        console.log(Object.fromEntries(dados)); // converte o Array em Objeto.
+
+
+
+    </script>
+</body>
+</html>
