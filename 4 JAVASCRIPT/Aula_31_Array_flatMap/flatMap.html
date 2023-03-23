@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Array Flatmap:
+            Utilizado para "achatamento" de arrays Multidimensionais.
+        */
+       let nomes = [
+        'João, José, Maria',
+        'Sandra, Paulo',
+        'Antônia, Fernanda, Marcos'
+       ]
+
+       console.log(nomes)
+       console.log('--------')
+
+       // Fazendo o Split (para separar os indices pela virgula)
+       let nomesMap = nomes.map(item =>{
+           return item.split(',')
+        })
+        console.log(nomesMap)
+
+        console.log('--------')
+        // Fazendo o FlatMap
+       let nomesFlatMap = nomes.flatMap(item =>{
+        return item.split(',')
+       })
+       console.log(nomesFlatMap)
+    </script>
+</body>
+</html>
