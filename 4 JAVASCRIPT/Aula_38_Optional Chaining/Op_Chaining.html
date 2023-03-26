@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Orçamento pessoal
+        let obj = {
+            2021: {
+                janeiro: {
+                    pessoal: 2000,
+                    casa: 1500,
+                    investimento: 1000
+                },
+                fevereiro: {
+                    pessoal: 1800,
+                    casa: 1600,
+                    investimento: 800
+                },
+            }
+        }
+
+        console.log(obj['2021'].fevereiro?.pessoal)
+        console.log(obj['2021'].marco?.pessoal) // OPERADOR '?' => Verifica se Existe.
+        console.log(obj['2021'].janeiro?.pessoal)
+
+
+    </script>
+</body>
+</html>
