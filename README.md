@@ -191,9 +191,10 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] ECMA 2020 (ES11) - Nullish Coalescing Operator</li>
         <li> [X] ECMA 2021 (ES12) - Logical Nullish assignment </li>
         <li> [X] ECMA 2021 (ES12) - Logical OR Assignment</li>
-        <li> [ ] ECMA 2021 (ES12) - Logical AND Assignment</li>
+        <li> [X] ECMA 2021 (ES12) - Logical AND Assignment</li>
         <li> [ ] ECMA 2021 (ES12) - Numeric separator</li>
         <li> [ ] ECMA 2021 (ES12) - String Replace All</li>
+        <li> [ ] ECMA 2021 (ES12) - Promise Any</li>
       </ul>
   </details>
   </li>
