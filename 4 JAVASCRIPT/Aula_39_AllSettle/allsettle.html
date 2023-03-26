@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const promisse1 = new Promise((res,rej) => {
+            return setTimeout(()=> res('Promise 1 Resolvida'), 2000)
+        })
+        const promisse2 = new Promise((res,rej) => {
+            return setTimeout(()=> rej('Promise 2 Rejeitada'), 2000)
+        })
+        const promisse3 = new Promise((res,rej) => {
+            return setTimeout(()=> res('Promise 3 Resolvida'), 2000)
+        })
+
+        const promises = [ promisse1, promisse2, promisse3 ]
+
+        Promise.allSettled(promises)
+            .then((resultados)=> {
+                resultados.forEach((res)=> {
+                    if(res.status == 'fulfilled') {
+                        console.log(res.value)
+                    } else {
+                        console.log(res.reason)
+                    }
+                })
+            })
+
+
+    </script>
+</body>
+</html>
