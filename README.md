@@ -153,7 +153,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
       </ul>
   </details>
   </li>
-  <li> [ ] <img src="https://img.shields.io/badge/-WORKING-yellow"/> <img src="https://img.shields.io/badge/ES6%202015-16%20hours-yellow"/>
+  <li> [X] <img src="https://img.shields.io/badge/-DONE-success"/>  <img src="https://img.shields.io/badge/ES6%202015-16%20hours-yellow"/>
                 <details>
     <summary>ES6 and Updates Program</summary>
     <br>
@@ -194,7 +194,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] ECMA 2021 (ES12) - Logical AND Assignment</li>
         <li> [X] ECMA 2021 (ES12) - Numeric separator</li>
         <li> [X] ECMA 2021 (ES12) - String Replace All</li>
-        <li> [ ] ECMA 2021 (ES12) - Promise Any</li>
+        <li> [X] ECMA 2021 (ES12) - Promise Any</li>
       </ul>
   </details>
   </li>

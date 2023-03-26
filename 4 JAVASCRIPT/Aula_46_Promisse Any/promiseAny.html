@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Promise Any:
+        // Retorna a primeira promise a ser executada em uma fila
+        const p1 = Promise((res,rej)=>{
+            setTimeout(()=> res('P1 Resolvida'), 3000)
+        })
+        const p2 = Promise((res,rej)=>{
+            setTimeout(()=> res('P2 Resolvida'), 2000)
+        })
+        const p3 = Promise((res,rej)=>{
+            setTimeout(()=> res('P3 Resolvida'), 4000)
+        })
+
+        let promises = [p1,p2,p3]
+
+        Promise.any(p1,p2,p3) //Promise
+        .then((res)=>{
+            console.log(res)
+        })
+        // No caso, a p2 será executada primeira.
+
+    </script>
+</body>
+</html>
