@@ -185,7 +185,7 @@ Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia 
         <li> [X] ECMA 2019 (ES10) - function toString</li>
         <li> [X] ECMA 2019 (ES10) - Catch com parametro opcional</li>
         <li> [X] ECMA 2020 (ES11) - Dinamic Import</li>
-        <li> [ ] ECMA 2020 (ES11) - Operador de visibilidade Private</li>
+        <li> [X] ECMA 2020 (ES11) - Operador de visibilidade Private</li>
         <li> [ ] ECMA 2020 (ES11) - Optional Chaining</li>
         <li> [ ] ECMA 2020 (ES11) - Promisse allSettled</li>
         <li> [ ] ECMA 2020 (ES11) - Nullish Coalescing Operator</li>
