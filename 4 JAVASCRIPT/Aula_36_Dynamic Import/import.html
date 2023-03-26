@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btnSaudacao">Saldacao</button>
+    <hr>
+    <input type="text" id="cep" placeholder="CEP">
+    <button id="btnCEP"> Consultar CEP</button>
+
+
+    <script type="module">
+
+        // Import estático:
+        // Usado antigamente, carregava no carregamento da pagina;
+        // import { saldacao } from './import/lib.mjs'
+        // import { getEnderecoByCEP } from './import/lib.mjs'
+
+        document.querySelector('#btnSaudacao').addEventListener('click', async () => {
+
+            // Import Dinamico ******* MATERIA DA AULA *********
+            const modulo = await import ('./import/lib.mjs') // PROMISE
+            console.log(modulo.saldacao())
+        })
+
+        document.querySelector('#btnCEP').addEventListener('click', async ()=> {
+
+            // Import Dinamico ******* MATERIA DA AULA *********
+
+            let cep = document.querySelector('#cep').value
+
+            if(cep.length == 8){
+                const module = await import ('./import/lib2.mjs') // PROMISE
+                module.getEnderecoByCEP(cep)
+                .then( dados => console.log(dados))
+            } else {
+                console.log('digite o CEP corretamente com 8 digitos, sem espaço')
+            }
+        })
+    </script>
+</body>
+</html>
