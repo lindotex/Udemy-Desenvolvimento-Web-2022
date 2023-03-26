@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Testando o operador lógico OR
+        let teste1 = null || 'Valor a direita'                  // Null: Valor nao utilizavel
+        let teste2 = 0 || 'Valor a direita'                     // 0: Valor nao utilizavel
+        let teste3 = undefined || 'Valor a direita'             // undefined: Valor nao utilizavel
+        let teste4 = '' || 'Valor a direita'                    // '': Valor nao utilizavel
+        let teste5 = 'Valor a esquerda' || 'Valor a direita'    // 'valor a esquerda': Valor é utilizavel
+
+        console.log('teste 1: ', teste1 )
+        console.log('teste 2: ', teste2 )
+        console.log('teste 3: ', teste3 )
+        console.log('teste 4: ', teste4 )
+        console.log('teste 5: ', teste5 )
+
+        /*
+        Porem, dentro da lógica, existem valores que podem sim ser considerados utilizaveis.
+        valor: 0, valor vazio: '',
+        podem ser utilizados dentro da lógica;
+        */
+
+        console.log('--------------------------------------')
+
+        //Utilizando o operador Nullish Coalesing (??):
+
+        let teste6 = null ?? 'Valor a direita'                  // Null: Valor nao utilizavel
+        let teste7 = 0 ?? 'Valor a direita'                     // 0: Valor nao utilizavel
+        let teste8 = undefined ?? 'Valor a direita'             // undefined: Valor nao utilizavel
+        let teste9 = '' ?? 'Valor a direita'                    // '': Valor nao utilizavel
+        let teste0 = 'Valor a esquerda' ?? 'Valor a direita'    // 'valor a esquerda': Valor é utilizavel
+
+        console.log('teste 6: ', teste6 )
+        console.log('teste 7: ', teste7 )
+        console.log('teste 8: ', teste8 )
+        console.log('teste 9: ', teste9 )
+        console.log('teste 0: ', teste0 )
+
+    </script>
+</body>
+</html>
