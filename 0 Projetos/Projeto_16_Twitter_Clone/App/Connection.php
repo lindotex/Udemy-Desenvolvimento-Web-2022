@@ -16,7 +16,7 @@ class Connection {
 			return $conn;
 
 		} catch (\PDOException $e) {
-			//.. tratar de alguma forma ..//
+			return '<h1>Falha na conexão com o banco de dados!</h1>';
 		}
 	}
 }
